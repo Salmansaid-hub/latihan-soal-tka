@@ -1,0 +1,20 @@
+{
+  "name": "TKA ICG — Belajar TKA SMA 2026",
+  "short_name": "TKA ICG",
+  "description": "Materi interaktif 8 mapel, bank soal, dan try out format TKA SMA 2026 per hari ujian.",
+  "lang": "id",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f5",
+  "theme_color": "#b8285e",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Try Out", "url": "./#/tryout" },
+    { "name": "Info TKA", "url": "./#/info" }
+  ]
+}
