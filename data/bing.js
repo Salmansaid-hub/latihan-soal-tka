@@ -304,6 +304,76 @@
    "type": "Recount text",
    "text": "<p>Last Sunday, our biology club visited Lake Limboto to observe the water plants. We left school at 5.30 a.m. on two minibuses and arrived just as the sun rose over the hills.</p><p>A fisherman named Pak Ismail took us around the lake in his wooden boat. In some places, the surface was completely covered with water hyacinth, so thick that it looked like a green field. Pak Ismail told us that the plant grows very fast and makes it difficult for boats to pass. He also said the lake used to be much deeper when he was young.</p><p>We collected water samples from three spots: near the shore, in the middle of the lake, and close to a river mouth. Back on land, we tested the samples with a simple kit. The sample from the river mouth was the cloudiest, and our teacher explained that rivers carry soil into the lake, especially after heavy rain.</p><p>Before going home, we helped Pak Ismail's neighbors pull out water hyacinth from a narrow channel. It was hard work, and by eleven o'clock our arms were aching. Still, everyone agreed it was the best field trip we had ever had. On the bus home, we started planning our report and decided to suggest turning the hyacinth into compost or handicrafts.</p>",
    "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t11",
+   "title": "The Bentor: Gorontalo's Motor Pedicab",
+   "type": "Descriptive text",
+   "text": "<p>The bentor is one of the easiest ways to get around Gorontalo. Its name comes from <i>becak motor</i>, or “motor pedicab.” A bentor is made by joining the front part of a traditional pedicab to the back of a motorcycle. The passenger seat, which usually fits two people, is at the front, while the driver sits behind it on the motorcycle seat.</p><p>Most bentors have a folding roof to protect passengers from the sun and rain. Many drivers decorate their vehicles with bright paint, stickers, or even small speakers, so no two bentors look exactly the same.</p><p>Bentors are popular because they can go through narrow streets where cars cannot pass, and passengers can ask the driver to stop almost anywhere. However, because the passengers sit at the very front, they are exposed if an accident happens. For this reason, local authorities have encouraged drivers to ride slowly and keep their vehicles in good condition.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t12",
+   "title": "A Night Hike to See the Sunrise",
+   "type": "Recount text",
+   "text": "<p>Last holiday, I joined my cousins on a night hike up a hill near our village to watch the sunrise. We met at my uncle's house at 2 a.m., each carrying a flashlight, a raincoat, and a bottle of water.</p><p>The first part of the trail was easy, but after an hour the path became steep and slippery. My cousin Lina twisted her ankle on a wet rock, so we stopped for twenty minutes while my uncle wrapped it with a bandage from his first-aid kit. After that, we walked more slowly and stayed close together.</p><p>We reached the top at 5.20, just ten minutes before the sun appeared. The sky changed from dark blue to orange, and we could see the clouds below us like a white sea. Everyone was tired, but nobody said a word for several minutes.</p><p>On the way down, Lina leaned on my shoulder. That evening, I added two things to my hiking list: a walking stick and a better pair of shoes.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t13",
+   "title": "The Borrowed Calculator",
+   "type": "Narrative text",
+   "text": "<p>Raka had always been proud of his calculator. It was an old scientific model that had belonged to his late grandfather, and he never let anyone touch it.</p><p>On the morning of the math exam, his classmate Dewi rushed to his desk. Her calculator had stopped working, and the exam would begin in five minutes. “Could I borrow yours? Just for today,” she asked. Raka hesitated. He needed it too, and he was afraid she might drop it.</p><p>Then he remembered something. In his bag was the cheap calculator his mother had bought him as a spare. He had never used it because it looked ugly next to his grandfather's.</p><p>Raka handed Dewi his grandfather's calculator and kept the cheap one for himself. “Take care of it,” he said. “It's older than both of us.”</p><p>After the exam, Dewi returned it wrapped carefully in a handkerchief. “Thank you,” she said. “I was so careful with it that I checked every answer twice.” Raka laughed. He had checked his answers twice too, because the cheap calculator kept freezing.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t14",
+   "title": "How to Make Simple Corn Fritters",
+   "type": "Procedure text",
+   "text": "<p><b>Ingredients:</b> 3 fresh corn cobs, 2 spring onions, 2 cloves of garlic, 3 tablespoons of flour, 1 egg, salt and pepper, cooking oil.</p><p><b>Steps:</b></p><ol><li>Cut the corn kernels off the cobs and pound half of them roughly so that they release their sweet juice.</li><li>Chop the spring onions and crush the garlic.</li><li>Mix the corn, spring onions, garlic, flour, and egg in a bowl. Add salt and pepper.</li><li>Heat the oil in a frying pan over medium heat.</li><li>Drop one spoonful of batter into the oil and flatten it slightly with the back of the spoon.</li><li>Fry for 2–3 minutes on each side until golden brown, then drain on paper towels.</li></ol><p><b>Tip:</b> If the batter is too runny, add one more spoon of flour. Fritters made from runny batter will break apart in the oil.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t15",
+   "title": "Schools Need Water Refill Stations",
+   "type": "Analytical exposition",
+   "text": "<p>Every day, a school canteen can sell hundreds of bottled drinks, and most of the bottles end up in the trash after a few minutes of use. I believe every school should install water refill stations and encourage students to bring their own bottles.</p><p>First, refill stations reduce plastic waste. If only half of the students in a school of 600 refilled a bottle instead of buying a new one each day, the school would use about 300 fewer plastic bottles daily — tens of thousands in a school year.</p><p>Second, refill stations help students stay healthy. Students who can get free drinking water are less likely to buy sweet drinks, which contain a lot of sugar.</p><p>Third, the stations can save families money. A reusable bottle costs about the same as ten bottles of water, but it can be used for years.</p><p>Of course, the stations must be cleaned and their filters replaced regularly. However, this cost is small compared with the benefits. Therefore, school leaders should make refill stations a priority in next year's budget.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t16",
+   "title": "Email: Change of Try-Out Schedule",
+   "type": "Short functional text (email)",
+   "text": "<div class='notice'><p><b>From:</b> Mrs. Hartini<br><b>To:</b> Class XII-A<br><b>Subject:</b> Change of schedule for the reading try-out</p><p>Dear students,</p><p>Because the computer lab will be used for the school's server upgrade, our reading try-out will move from Wednesday, 21 October, to Thursday, 22 October. The time stays the same: 07.30–08.45 (75 minutes).</p><p>Please arrive 15 minutes early and bring your student card. Phones must stay in your bags during the test.</p><p>Students who cannot come on Thursday may take the try-out on Saturday, 24 October, at 08.00, but only if they send me a message by Friday.</p><p>See you on Thursday,<br>Mrs. Hartini</p></div>",
+   "note": "Email ini fiktif untuk latihan."
+  },
+  {
+   "id": "en-t17",
+   "title": "The Tarsier: A Tiny Night Hunter",
+   "type": "Descriptive text",
+   "text": "<p>The tarsier is one of the smallest primates in the world. An adult is about the size of a human fist and weighs little more than 100 grams. Several species of tarsier live in the forests of Sulawesi, including the Tangkoko Nature Reserve in North Sulawesi.</p><p>The tarsier's most striking feature is its eyes. Each eye is about as large as its brain, which helps it see in the dark. Because its eyes cannot move in their sockets, the tarsier turns its head instead — almost 180 degrees in each direction, like an owl.</p><p>Tarsiers are nocturnal. They sleep during the day in tree hollows or thick plants and come out at night to hunt insects, which they catch by leaping suddenly from branch to branch. Their long back legs allow them to jump many times their own body length.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t18",
+   "title": "The Firefly Who Wanted to Shine Like the Moon",
+   "type": "Narrative text (fable)",
+   "text": "<p>Long ago, a young firefly named Kilat lived near a rice field. Every night he looked up at the moon and sighed. “My light is so small,” he said. “Nobody notices me.”</p><p>One evening, Kilat decided to fly as high as he could to get closer to the moon. He flew above the coconut trees and above the clouds of mosquitoes, until his wings ached and the cold wind pushed him back down.</p><p>He landed, exhausted, on a leaf beside the field. Below him, a little girl was crying. She had lost her way home in the dark, and the moon was hidden behind thick clouds.</p><p>Kilat flashed his light, and soon a hundred other fireflies joined him. Together they glowed along the narrow path between the rice fields, and the girl followed them all the way to her village.</p><p>That night, Kilat did not look at the moon at all. He finally understood that even a small light can matter when it shines in the right place.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t19",
+   "title": "Saturday Story Time",
+   "type": "Recount text",
+   "text": "<p>Last month, our student council opened a reading corner at the village hall, and I volunteered to read stories to children every Saturday.</p><p>On the first Saturday, only four children came, and they looked bored after five minutes. I had chosen a long book with few pictures, which was a mistake.</p><p>The next week, I brought picture books and a puppet made from an old sock. Before turning each page, I let the children guess what would happen next. This time, twelve children came, and some of them brought their younger brothers and sisters.</p><p>By the end of the month, two of the older children were reading short stories aloud to the younger ones. I realized that the best way to make children love reading is to let them take part in the story, not just listen to it.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "en-t20",
+   "title": "Sleep Is Part of Studying",
+   "type": "Analytical exposition",
+   "text": "<p>Many students stay up late before an exam, believing that every extra hour of study will raise their score. In fact, sleep is not a break from learning; it is part of it.</p><p>First, sleep helps the brain store what we have learned. Scientists have found that during deep sleep, the brain replays and strengthens memories formed during the day. Students who sleep well after studying usually remember more than those who stay awake.</p><p>Second, tiredness makes careless mistakes more likely. A sleepy student may read a question too quickly, miss the word “NOT,” or make simple calculation errors.</p><p>Third, teenagers need more sleep than many people think. Health experts recommend eight to ten hours a night for people aged 13 to 18, but many students get far less during exam weeks.</p><p>For these reasons, students should treat sleep as part of their study plan. Finishing the review one hour earlier and going to bed on time may do more for your score than one more hour of reading.</p>",
+   "note": "Teks disusun khusus untuk latihan."
   }
  ],
  "items": [
@@ -1082,7 +1152,760 @@
    ],
    "id": "en-t10-4",
    "stim": "en-t10"
+  },
+  {
+   "kind": "pg",
+   "stem": "What is the main idea of paragraph 3?",
+   "options": [
+    "The price of a bentor ride",
+    "How to build a bentor at home",
+    "The advantages of bentors and a safety concern about them",
+    "The history of the name “bentor”",
+    "How drivers decorate their bentors"
+   ],
+   "why": "Paragraph 3 explains why bentors are popular (narrow streets, stopping anywhere) and the risk for passengers at the front.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    2
+   ],
+   "id": "en-t11-1",
+   "stim": "en-t11"
+  },
+  {
+   "kind": "pg",
+   "stem": "According to the text, where does the driver of a bentor sit?",
+   "options": [
+    "Inside a closed cabin",
+    "Next to the passengers",
+    "On the roof of the bentor",
+    "In front of the passengers",
+    "Behind the passengers, on the motorcycle seat"
+   ],
+   "why": "“The passenger seat … is at the front, while the driver sits behind it on the motorcycle seat.”",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    4
+   ],
+   "id": "en-t11-2",
+   "stim": "en-t11"
+  },
+  {
+   "kind": "multi",
+   "stem": "Which features of a bentor are mentioned in the text? <i>(There is more than one correct answer.)</i>",
+   "options": [
+    "A folding roof",
+    "A passenger seat at the front",
+    "Air conditioning",
+    "Decorations such as stickers",
+    "A meter that calculates the fare"
+   ],
+   "key": [
+    0,
+    1,
+    3
+   ],
+   "why": "The roof, front seat, and decorations are described. Air conditioning and a fare meter are not mentioned.",
+   "comp": "Pemahaman Kontekstual",
+   "id": "en-t11-3",
+   "stim": "en-t11"
+  },
+  {
+   "kind": "pg",
+   "stem": "The word “exposed” in paragraph 3 is closest in meaning to …",
+   "options": [
+    "comfortable",
+    "excited",
+    "hidden",
+    "unprotected",
+    "delayed"
+   ],
+   "why": "Passengers at the very front have nothing in front of them, so they are unprotected in an accident.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    3
+   ],
+   "id": "en-t11-4",
+   "stim": "en-t11"
+  },
+  {
+   "kind": "pg",
+   "stem": "What is the purpose of the text?",
+   "options": [
+    "To retell the writer's experience of hiking to watch the sunrise",
+    "To describe the hills near the writer's village",
+    "To report the weather on a holiday",
+    "To persuade readers to hike at night",
+    "To explain how to treat a twisted ankle"
+   ],
+   "why": "The text tells past events in order, from meeting at 2 a.m. to coming back down — a recount.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "en-t12-1",
+   "stim": "en-t12"
+  },
+  {
+   "kind": "pg",
+   "stem": "Why did the group stop for twenty minutes?",
+   "options": [
+    "It started to rain heavily.",
+    "They were waiting for the sunrise.",
+    "They lost their way on the trail.",
+    "Lina twisted her ankle and needed a bandage.",
+    "Their flashlights ran out of power."
+   ],
+   "why": "“Lina twisted her ankle on a wet rock, so we stopped for twenty minutes while my uncle wrapped it…”",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    3
+   ],
+   "id": "en-t12-2",
+   "stim": "en-t12"
+  },
+  {
+   "kind": "bs",
+   "stem": "Decide whether each statement is true or false according to the text.",
+   "options": [
+    "The group met at the uncle's house at 2 a.m.",
+    "They reached the top after the sun had risen.",
+    "The uncle carried a first-aid kit.",
+    "Lina walked down the hill without any help."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "key": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "why": "They arrived ten minutes <i>before</i> sunrise, and Lina leaned on the writer's shoulder on the way down.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "en-t12-3",
+   "stim": "en-t12"
+  },
+  {
+   "kind": "pg",
+   "stem": "Why did the writer add a walking stick and better shoes to the hiking list?",
+   "options": [
+    "Because the uncle forgot to bring them",
+    "To be better prepared for steep, slippery trails next time",
+    "To sell them to other hikers",
+    "Because the writer lost the old shoes",
+    "To give them to Lina as a present"
+   ],
+   "why": "The trail was steep and slippery and someone was injured, so the writer plans to be better equipped.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    1
+   ],
+   "id": "en-t12-4",
+   "stim": "en-t12"
+  },
+  {
+   "kind": "pg",
+   "stem": "What can we learn about Raka from the story?",
+   "options": [
+    "He does not care about his grandfather's calculator.",
+    "He is generous and willing to trust others with something precious.",
+    "He is careless with his belongings.",
+    "He is jealous of Dewi's success.",
+    "He is selfish and never shares his things."
+   ],
+   "why": "Although the calculator was precious, Raka lent it to Dewi and used the cheap spare himself.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    1
+   ],
+   "id": "en-t13-1",
+   "stim": "en-t13"
+  },
+  {
+   "kind": "pg",
+   "stem": "Why did Raka hesitate at first?",
+   "options": [
+    "The teacher did not allow borrowing.",
+    "He wanted Dewi to fail the exam.",
+    "He needed a calculator too and was afraid Dewi might drop his.",
+    "He did not know how to use his calculator.",
+    "His calculator had also stopped working."
+   ],
+   "why": "“He needed it too, and he was afraid she might drop it.”",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    2
+   ],
+   "id": "en-t13-2",
+   "stim": "en-t13"
+  },
+  {
+   "kind": "pg",
+   "stem": "In “It's older than both of us,” the word “it” refers to …",
+   "options": [
+    "Dewi's calculator",
+    "the math exam",
+    "the handkerchief",
+    "the grandfather's calculator",
+    "the cheap calculator"
+   ],
+   "why": "Raka is handing over his grandfather's old calculator when he says this.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    3
+   ],
+   "id": "en-t13-3",
+   "stim": "en-t13"
+  },
+  {
+   "kind": "multi",
+   "stem": "Which statements are true according to the story? <i>(There is more than one correct answer.)</i>",
+   "options": [
+    "Dewi's calculator stopped working.",
+    "Raka's mother bought the cheap calculator.",
+    "Raka had used the cheap calculator many times before.",
+    "Dewi broke Raka's calculator.",
+    "Both Raka and Dewi checked their answers twice."
+   ],
+   "key": [
+    0,
+    1,
+    4
+   ],
+   "why": "Raka had never used the spare, and Dewi returned the calculator safely wrapped in a handkerchief.",
+   "comp": "Pemahaman Kontekstual",
+   "id": "en-t13-4",
+   "stim": "en-t13"
+  },
+  {
+   "kind": "pg",
+   "stem": "The text is written to …",
+   "options": [
+    "persuade readers to eat more corn",
+    "report the price of corn",
+    "tell a story about a cook",
+    "describe the taste of corn fritters",
+    "explain how to make corn fritters"
+   ],
+   "why": "It lists ingredients and ordered steps — a procedure text.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    4
+   ],
+   "id": "en-t14-1",
+   "stim": "en-t14"
+  },
+  {
+   "kind": "pg",
+   "stem": "What should be done right after mixing all the ingredients in a bowl?",
+   "options": [
+    "Heat the oil in a frying pan.",
+    "Drain the fritters on paper towels.",
+    "Flatten the batter with a spoon.",
+    "Cut the corn kernels off the cobs.",
+    "Chop the spring onions."
+   ],
+   "why": "Step 3 is mixing; step 4 is heating the oil.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    0
+   ],
+   "id": "en-t14-2",
+   "stim": "en-t14"
+  },
+  {
+   "kind": "pg",
+   "stem": "Why should half of the corn kernels be pounded?",
+   "options": [
+    "To make them easier to fry",
+    "To make the batter runny",
+    "To cool them down",
+    "To release their sweet juice",
+    "To remove the skin"
+   ],
+   "why": "Step 1: “pound half of them roughly so that they release their sweet juice.”",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    3
+   ],
+   "id": "en-t14-3",
+   "stim": "en-t14"
+  },
+  {
+   "kind": "multi",
+   "stem": "Which actions would most likely make the fritters break apart in the oil? <i>(There is more than one correct answer.)</i>",
+   "options": [
+    "Using a very runny batter",
+    "Adding one more spoon of flour to a runny batter",
+    "Leaving out the flour completely",
+    "Flattening the batter slightly with a spoon",
+    "Draining the fritters on paper towels"
+   ],
+   "key": [
+    0,
+    2
+   ],
+   "why": "The tip says runny batter makes fritters break apart; leaving out the flour would make the batter runny. Adding flour is the solution, and the other steps are part of the recipe.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "en-t14-4",
+   "stim": "en-t14"
+  },
+  {
+   "kind": "pg",
+   "stem": "What is the writer's main argument?",
+   "options": [
+    "Every school should install water refill stations.",
+    "Filters are difficult to replace.",
+    "Reusable bottles are too expensive.",
+    "Canteens should stop selling drinks.",
+    "Sweet drinks should be banned at school."
+   ],
+   "why": "Stated at the end of paragraph 1 and repeated at the end.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "en-t15-1",
+   "stim": "en-t15"
+  },
+  {
+   "kind": "pg",
+   "stem": "According to the writer, how many fewer plastic bottles would a school of 600 use each day if half of the students refilled their bottles?",
+   "options": [
+    "150",
+    "200",
+    "300",
+    "600",
+    "60,000"
+   ],
+   "why": "Half of 600 is 300, so about 300 fewer bottles a day.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    2
+   ],
+   "id": "en-t15-2",
+   "stim": "en-t15"
+  },
+  {
+   "kind": "bs",
+   "stem": "Decide whether each sentence is a fact or an opinion.",
+   "options": [
+    "“A reusable bottle costs about the same as ten bottles of water.”",
+    "“School leaders should make refill stations a priority in next year's budget.”",
+    "“This cost is small compared with the benefits.”"
+   ],
+   "labels": [
+    "Fact",
+    "Opinion"
+   ],
+   "key": [
+    0,
+    1,
+    1
+   ],
+   "why": "Prices can be checked. “Should” and judging a cost as “small” compared with benefits are the writer's opinions.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "en-t15-3",
+   "stim": "en-t15"
+  },
+  {
+   "kind": "pg",
+   "stem": "Which paragraph admits a weakness of the writer's idea before answering it?",
+   "options": [
+    "Paragraph 1",
+    "Paragraph 2",
+    "Paragraph 3",
+    "Paragraph 4",
+    "Paragraph 5"
+   ],
+   "why": "Paragraph 5: “Of course, the stations must be cleaned… However, this cost is small…”",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    4
+   ],
+   "id": "en-t15-4",
+   "stim": "en-t15"
+  },
+  {
+   "kind": "pg",
+   "stem": "What is the main purpose of the email?",
+   "options": [
+    "To inform students about a new date for the try-out",
+    "To announce the try-out results",
+    "To cancel the reading try-out",
+    "To ask students to buy new phones",
+    "To invite students to a server upgrade"
+   ],
+   "why": "The email explains that the try-out moves from Wednesday to Thursday.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "en-t16-1",
+   "stim": "en-t16"
+  },
+  {
+   "kind": "pg",
+   "stem": "Why is the try-out moved?",
+   "options": [
+    "Mrs. Hartini will be absent on Wednesday.",
+    "The computer lab will be used for a server upgrade.",
+    "The test questions are not ready.",
+    "Thursday is a school holiday.",
+    "Students asked for more time to study."
+   ],
+   "why": "“Because the computer lab will be used for the school's server upgrade…”",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    1
+   ],
+   "id": "en-t16-2",
+   "stim": "en-t16"
+  },
+  {
+   "kind": "multi",
+   "stem": "What must students do on the day of the try-out? <i>(There is more than one correct answer.)</i>",
+   "options": [
+    "Arrive 15 minutes early",
+    "Bring their student card",
+    "Keep their phones in their bags",
+    "Bring a laptop",
+    "Send Mrs. Hartini a message"
+   ],
+   "key": [
+    0,
+    1,
+    2
+   ],
+   "why": "Sending a message is only for students who cannot come on Thursday; a laptop is not mentioned.",
+   "comp": "Pemahaman Kontekstual",
+   "id": "en-t16-3",
+   "stim": "en-t16"
+  },
+  {
+   "kind": "pg",
+   "stem": "A student will be away on Thursday. What should she do?",
+   "options": [
+    "Take the try-out on Wednesday as planned",
+    "Send Mrs. Hartini a message by Friday and take the try-out on Saturday",
+    "Come on Saturday without sending a message",
+    "Skip the try-out without telling anyone",
+    "Take the try-out at home on her phone"
+   ],
+   "why": "The Saturday session is allowed “only if they send me a message by Friday.”",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    1
+   ],
+   "id": "en-t16-4",
+   "stim": "en-t16"
+  },
+  {
+   "kind": "pg",
+   "stem": "The text mainly describes …",
+   "options": [
+    "the differences between tarsiers and owls",
+    "how tarsiers raise their young",
+    "the physical features and habits of the tarsier",
+    "how to protect forests in Sulawesi",
+    "the history of the Tangkoko Nature Reserve"
+   ],
+   "why": "The text describes the tarsier's size, eyes, head movement, and night hunting.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    2
+   ],
+   "id": "en-t17-1",
+   "stim": "en-t17"
+  },
+  {
+   "kind": "pg",
+   "stem": "Why does the tarsier turn its head?",
+   "options": [
+    "It is trying to scare its enemies.",
+    "It wants to look like an owl.",
+    "Its eyes cannot move in their sockets.",
+    "It cannot see in the dark.",
+    "Its neck is very long."
+   ],
+   "why": "“Because its eyes cannot move in their sockets, the tarsier turns its head instead.”",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    2
+   ],
+   "id": "en-t17-2",
+   "stim": "en-t17"
+  },
+  {
+   "kind": "bs",
+   "stem": "Decide whether each statement is true or false according to the text.",
+   "options": [
+    "Tarsiers are active at night.",
+    "A tarsier's eyes are smaller than its brain.",
+    "Tarsiers catch insects by leaping.",
+    "Tarsiers live only in North Sulawesi."
+   ],
+   "labels": [
+    "True",
+    "False"
+   ],
+   "key": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "why": "Each eye is about as large as its brain, and the text says several species live in Sulawesi, <i>including</i> North Sulawesi.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "en-t17-3",
+   "stim": "en-t17"
+  },
+  {
+   "kind": "pg",
+   "stem": "The word “striking” in paragraph 2 is closest in meaning to …",
+   "options": [
+    "painful",
+    "dangerous",
+    "hidden",
+    "ordinary",
+    "very noticeable"
+   ],
+   "why": "The eyes are the feature that stands out most.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    4
+   ],
+   "id": "en-t17-4",
+   "stim": "en-t17"
+  },
+  {
+   "kind": "pg",
+   "stem": "What is the moral value of the story?",
+   "options": [
+    "The moon is more important than fireflies.",
+    "We should always try to fly higher than others.",
+    "Hard work is useless if nobody notices it.",
+    "Small contributions can be valuable when they are used in the right place.",
+    "Children should not go out at night."
+   ],
+   "why": "Kilat's small light, joined with others, guided the girl home; he learned that a small light matters in the right place.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    3
+   ],
+   "id": "en-t18-1",
+   "stim": "en-t18"
+  },
+  {
+   "kind": "pg",
+   "stem": "Why could the girl not find her way home?",
+   "options": [
+    "It was dark and the moon was hidden behind thick clouds.",
+    "Her village was too far away to walk.",
+    "Kilat flew away from her.",
+    "The rice field was flooded.",
+    "She was following the wrong fireflies."
+   ],
+   "why": "Paragraph 3: “She had lost her way home in the dark, and the moon was hidden behind thick clouds.”",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "en-t18-2",
+   "stim": "en-t18"
+  },
+  {
+   "kind": "bs",
+   "stem": "Decide whether each event could happen in real life (reality) or not (fantasy).",
+   "options": [
+    "A firefly talks about its feelings.",
+    "Fireflies glow at night.",
+    "Cold wind pushes a small insect down."
+   ],
+   "labels": [
+    "Reality",
+    "Fantasy"
+   ],
+   "key": [
+    1,
+    0,
+    0
+   ],
+   "why": "Talking insects belong to fantasy; glowing fireflies and wind pushing insects are real.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "en-t18-3",
+   "stim": "en-t18"
+  },
+  {
+   "kind": "pg",
+   "stem": "How did Kilat change at the end of the story?",
+   "options": [
+    "He became jealous of the other fireflies.",
+    "He decided to fly to the moon again.",
+    "He became brighter than the moon.",
+    "He left the rice field forever.",
+    "He stopped comparing himself with the moon and valued his own light."
+   ],
+   "why": "“That night, Kilat did not look at the moon at all. He finally understood…”",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    4
+   ],
+   "id": "en-t18-4",
+   "stim": "en-t18"
+  },
+  {
+   "kind": "pg",
+   "stem": "What was the problem on the first Saturday?",
+   "options": [
+    "The children got bored because the book was long and had few pictures.",
+    "The children were too young to listen.",
+    "The writer forgot to bring a book.",
+    "No children came to the reading corner.",
+    "The village hall was closed."
+   ],
+   "why": "Only four children came and they were bored; the writer admits the long book with few pictures was a mistake.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "en-t19-1",
+   "stim": "en-t19"
+  },
+  {
+   "kind": "multi",
+   "stem": "What did the writer do differently in the second week? <i>(There is more than one correct answer.)</i>",
+   "options": [
+    "Brought picture books",
+    "Used a sock puppet",
+    "Asked the children to guess what would happen next",
+    "Gave the children prizes",
+    "Read a longer book"
+   ],
+   "key": [
+    0,
+    1,
+    2
+   ],
+   "why": "Paragraph 3 lists picture books, a sock puppet, and guessing. Prizes and a longer book are not mentioned.",
+   "comp": "Pemahaman Kontekstual",
+   "id": "en-t19-2",
+   "stim": "en-t19"
+  },
+  {
+   "kind": "pg",
+   "stem": "Which event happened last?",
+   "options": [
+    "The student council opened a reading corner.",
+    "Older children read short stories aloud to younger ones.",
+    "The writer made a puppet from an old sock.",
+    "Only four children came.",
+    "Twelve children came to the reading corner."
+   ],
+   "why": "This happened “by the end of the month,” after the other events.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    1
+   ],
+   "id": "en-t19-3",
+   "stim": "en-t19"
+  },
+  {
+   "kind": "pg",
+   "stem": "Which statement best summarizes the lesson the writer learned?",
+   "options": [
+    "Older children should not read to younger ones.",
+    "Letting children take part in stories helps them love reading.",
+    "Children prefer long books to picture books.",
+    "Puppets are more important than books.",
+    "Reading corners should only open on Saturdays."
+   ],
+   "why": "The last sentence states this lesson directly.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    1
+   ],
+   "id": "en-t19-4",
+   "stim": "en-t19"
+  },
+  {
+   "kind": "pg",
+   "stem": "What is the writer's main point?",
+   "options": [
+    "Exams should be held in the afternoon.",
+    "Students should study all night before an exam.",
+    "Sleep is part of learning and should be included in a study plan.",
+    "Reading is more important than sleeping.",
+    "Teenagers sleep too much."
+   ],
+   "why": "Paragraph 1 and the conclusion both say sleep is part of learning and part of the study plan.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    2
+   ],
+   "id": "en-t20-1",
+   "stim": "en-t20"
+  },
+  {
+   "kind": "pg",
+   "stem": "According to the text, how many hours of sleep do health experts recommend for people aged 13 to 18?",
+   "options": [
+    "Six to seven hours",
+    "Seven to eight hours",
+    "Eight to ten hours",
+    "Ten to twelve hours",
+    "At least twelve hours"
+   ],
+   "why": "“Health experts recommend eight to ten hours a night for people aged 13 to 18.”",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    2
+   ],
+   "id": "en-t20-2",
+   "stim": "en-t20"
+  },
+  {
+   "kind": "bs",
+   "stem": "Decide whether each sentence is a fact or an opinion.",
+   "options": [
+    "“Health experts recommend eight to ten hours a night for people aged 13 to 18.”",
+    "“Finishing the review one hour earlier … may do more for your score than one more hour of reading.”",
+    "“Students should treat sleep as part of their study plan.”"
+   ],
+   "labels": [
+    "Fact",
+    "Opinion"
+   ],
+   "key": [
+    0,
+    1,
+    1
+   ],
+   "why": "The recommendation can be checked. The other two sentences are the writer's suggestions and judgments.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "en-t20-3",
+   "stim": "en-t20"
+  },
+  {
+   "kind": "pg",
+   "stem": "Which information would best support the writer's second argument?",
+   "options": [
+    "The number of students in each class",
+    "A recipe for a healthy breakfast",
+    "The opening hours of the school library",
+    "A list of popular exam-preparation books",
+    "Test results showing that tired students make more careless errors"
+   ],
+   "why": "The second argument is about tiredness causing careless mistakes, so evidence linking tiredness to errors supports it directly.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    4
+   ],
+   "id": "en-t20-4",
+   "stim": "en-t20"
   }
  ],
- "count": 41
+ "count": 81
 };

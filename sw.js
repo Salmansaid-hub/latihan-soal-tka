@@ -1,10 +1,10 @@
 /* Service worker TKA ICG: buka cepat & tetap jalan tanpa internet.
    Naikkan VERSION setiap kali isi situs diperbarui agar cache lama dibersihkan. */
-const VERSION = 'tka-icg-2026-10-19-v3';
+const VERSION = 'tka-icg-2026-10-20-v4';
 const FONT_CACHE = 'tka-icg-fonts';
 const CORE = [
   './', 'index.html', '404.html', 'manifest.webmanifest',
-  'assets/portal.css', 'assets/portal.js', 'assets/catalog.js',
+  'assets/portal.css', 'assets/portal.js', 'assets/catalog.js', 'assets/kisi.js',
   'assets/icons/icon.svg', 'assets/icons/icon-192.png', 'assets/icons/icon-512.png', 'assets/icons/favicon-32.png',
   'apps/tryout.html', 'apps/tryout.css', 'apps/tryout.js',
   'apps/literasi.css', 'apps/literasi.js', 'apps/bindo.html', 'apps/bing.html',

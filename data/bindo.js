@@ -310,6 +310,76 @@
    "type": "Teks informasi (sejarah)",
    "text": "<p>Bagi masyarakat Gorontalo, 23 Januari bukan tanggal biasa. Pada hari itu tahun 1942, rakyat Gorontalo yang dipimpin Nani Wartabone mengambil alih kekuasaan dari pejabat kolonial Belanda. Bendera Merah Putih dikibarkan dan lagu Indonesia Raya dinyanyikan, tiga tahun sebelum Proklamasi Kemerdekaan Indonesia dibacakan di Jakarta.</p><p>Peristiwa itu tidak terjadi tiba-tiba. Menjelang awal 1942, kekuasaan Belanda di Hindia Belanda melemah karena tentara Jepang bergerak cepat ke wilayah selatan. Para pemuda Gorontalo melihat keadaan itu sebagai saat yang tepat untuk menegaskan bahwa negeri mereka bukan milik penjajah.</p><p>Kini, tanggal 23 Januari diperingati sebagai Hari Patriotik di Gorontalo. Nama Nani Wartabone juga diabadikan sebagai nama Taman Nasional Bogani Nani Wartabone. Pada 2003, pemerintah menetapkannya sebagai Pahlawan Nasional.</p><p>Peristiwa 23 Januari mengingatkan bahwa semangat merdeka tumbuh di banyak daerah, bukan hanya di pusat pemerintahan. Setiap daerah memiliki cerita perjuangannya sendiri yang layak dikenal generasi muda.</p>",
    "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "bi-t11",
+   "title": "Mengapa Kita Mengantuk Setelah Makan Siang?",
+   "type": "Teks eksplanasi",
+   "text": "<p>Hampir setiap siswa pernah mengalaminya: setelah makan siang, kelopak mata terasa berat dan penjelasan guru seperti terdengar dari kejauhan. Selama ini banyak orang percaya bahwa kantuk itu muncul karena darah “berpindah” ke lambung untuk membantu pencernaan sehingga otak kekurangan pasokan. Penjelasan tersebut ternyata terlalu sederhana.</p><p>Tubuh manusia memiliki jam biologis yang disebut ritme sirkadian. Jam ini mengatur kapan kita merasa segar dan kapan kita mulai lelah. Selain penurunan besar pada malam hari, ritme sirkadian juga menimbulkan penurunan kewaspadaan yang lebih kecil pada awal siang, kira-kira antara pukul satu dan tiga. Penurunan ini tetap terjadi meskipun seseorang melewatkan makan siang.</p><p>Meski begitu, makanan tetap berperan. Porsi besar yang kaya karbohidrat sederhana, seperti nasi putih berlimpah dan minuman manis, cenderung memperkuat rasa kantuk. Kurang tidur pada malam sebelumnya membuat efeknya makin terasa.</p><p>Karena itu, cara mengatasinya tidak cukup dengan menahan lapar. Tidur malam yang cukup, makan siang dengan porsi sedang, dan bergerak sebentar setelah makan dapat membantu. Bila memungkinkan, tidur siang singkat sekitar 10–20 menit juga bermanfaat, asalkan tidak terlalu lama sehingga justru membuat badan terasa berat ketika bangun.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "bi-t12",
+   "title": "Lembar yang Tidak Difotokopi",
+   "type": "Cerpen (teks fiksi)",
+   "text": "<p>Sepulang sekolah, Nadia membantu Om Rahman menjaga kios fotokopi di depan gerbang. Mesin tua di sudut kios berdengung pelan, dan bau kertas hangat memenuhi ruangan sempit itu.</p><p>Menjelang magrib, Fajar, teman sekelasnya, datang terburu-buru. Ia menyodorkan selembar kertas yang dilipat dua. “Perbanyak sepuluh, Nad. Cepat, ya,” katanya sambil melirik ke jalan.</p><p>Nadia membuka lipatan kertas itu. Deretan nomor satu sampai empat puluh, masing-masing diikuti satu huruf. Di pojok kanan atas tertulis dengan tulisan tangan yang ia kenal: <i>Try out Matematika — Kamis</i>. Jantung Nadia berdegup. Try out itu besok pagi.</p><p>“Ini dari mana, Jar?”</p><p>“Sudahlah, yang penting kita semua aman,” jawab Fajar. “Kamu juga dapat satu, gratis.”</p><p>Nadia memandangi kertas itu lama. Ia teringat malam-malam ketika ia mengerjakan soal peluang sampai tertidur di atas buku. Ia juga teringat ucapan Om Rahman saat pertama kali mengajarinya memakai mesin: “Mesin ini cuma menyalin, Nad. Yang menentukan isinya pantas disalin atau tidak, ya kita.”</p><p>Nadia melipat kertas itu kembali dan menyerahkannya kepada Fajar. “Maaf, Jar. Yang ini tidak bisa.”</p><p>Fajar mendengus, lalu pergi tanpa pamit. Nadia duduk kembali di kursinya. Tangannya masih dingin, tetapi dadanya terasa lebih lapang. Ia membuka buku latihan dan mulai mengerjakan soal peluang nomor sebelas.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "bi-t13",
+   "title": "Perlukah Pekerjaan Rumah?",
+   "type": "Teks jamak (dua teks)",
+   "text": "<h4>Teks 1 — Pendapat seorang guru</h4><p>Pekerjaan rumah (PR) membantu siswa mengulang materi sebelum lupa. Saat mengerjakan PR sendiri, siswa tahu bagian mana yang belum dipahami dan dapat menanyakannya keesokan hari. Karena itu, saya tetap memberi PR setiap minggu, tetapi jumlahnya saya batasi agar dapat selesai dalam 30 menit.</p><h4>Teks 2 — Laporan OSIS</h4><p>Survei OSIS terhadap 150 siswa kelas 12 menunjukkan bahwa pada pekan ketika lima mata pelajaran memberi PR pada hari yang sama, separuh responden tidur kurang dari enam jam. Siswa tidak menolak PR, tetapi meminta jadwal PR antarguru diatur agar tidak menumpuk pada hari yang sama. Menurut kami, satu kalender PR bersama di tiap kelas adalah jalan keluar yang sederhana.</p>",
+   "note": "Data survei dalam Teks 2 adalah ilustrasi untuk latihan."
+  },
+  {
+   "id": "bi-t14",
+   "title": "Produksi Jagung Desa Tunas Harapan",
+   "type": "Teks informasi dengan tabel",
+   "text": "<p>Tabel berikut menunjukkan luas panen dan produksi jagung di Desa Tunas Harapan selama lima tahun.</p><table class='tb'><caption>Tabel. Luas panen dan produksi jagung</caption><tr><th>Tahun</th><th>Luas panen (ha)</th><th>Produksi (ton)</th></tr><tr><td>2021</td><td>120</td><td>540</td></tr><tr><td>2022</td><td>125</td><td>600</td></tr><tr><td>2023</td><td>130</td><td>585</td></tr><tr><td>2024</td><td>110</td><td>605</td></tr><tr><td>2025</td><td>115</td><td>667</td></tr></table><p>Dalam rapat desa, kepala desa menyatakan: <i>“Produksi jagung kita naik setiap tahun berkat program pupuk bersubsidi yang dimulai pada 2024.”</i></p>",
+   "note": "Nama desa dan data dalam teks ini fiktif untuk latihan."
+  },
+  {
+   "id": "bi-t15",
+   "title": "Mesin Jahit Ibu",
+   "type": "Puisi",
+   "text": "<div class='poem'><p>Setiap malam mesin jahit ibu<br>berderap seperti kuda kecil<br>mengantar kain-kain orang<br>menjadi baju lebaran.</p><p>Jarumnya naik turun, sabar,<br>menjahit sobek di lengan bajuku<br>dan sobek di hari-hari kami<br>yang tak pernah ibu ceritakan.</p><p>Pagi tiba, ibu tertidur<br>di samping tumpukan pesanan.<br>Kuselimuti punggungnya<br>yang lebih letih dari benang.</p></div>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "bi-t16",
+   "title": "Menyusun Jadwal Belajar Menjelang Ujian",
+   "type": "Teks prosedur",
+   "text": "<ol><li>Tuliskan tanggal setiap mata uji dan hitung sisa hari sebelum ujian pertama.</li><li>Daftarkan bab atau topik setiap mata uji, lalu tandai topik yang paling lemah berdasarkan hasil latihan.</li><li>Bagi hari yang tersisa menjadi blok belajar 45–60 menit dengan jeda 10 menit di antaranya.</li><li>Letakkan topik terlemah pada jam ketika kamu paling segar, misalnya pagi hari.</li><li>Sisipkan satu sesi try out penuh setiap dua atau tiga hari untuk melatih ketahanan dan pembagian waktu.</li><li>Kosongkan malam sebelum ujian dari materi baru; gunakan hanya untuk mengulang ringkasan dan beristirahat.</li></ol><p><b>Catatan:</b> Jadwal yang baik bisa diubah. Jika satu topik ternyata sudah dikuasai, pindahkan waktunya ke topik lain yang masih lemah.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "bi-t17",
+   "title": "Habibie dan Mimpi Pesawat Buatan Sendiri",
+   "type": "Teks biografi",
+   "text": "<p>Bacharuddin Jusuf Habibie lahir di Parepare, Sulawesi Selatan, pada 25 Juni 1936. Ayahnya, Alwi Abdul Jalil Habibie, berasal dari Gorontalo, sedangkan ibunya, R.A. Tuti Marini Puspowardojo, berasal dari Yogyakarta. Sejak kecil Habibie dikenal gemar membaca dan senang membongkar-pasang benda di sekitarnya.</p><p>Ia melanjutkan kuliah teknik penerbangan di RWTH Aachen, Jerman. Di negeri itu ia kemudian bekerja di industri pesawat terbang dan dikenal karena penelitiannya tentang perambatan retak pada struktur pesawat. Hasil penelitiannya membantu insinyur memperkirakan titik awal retakan sehingga pesawat dapat dibuat lebih ringan tanpa mengurangi keamanannya.</p><p>Pada 1970-an Habibie pulang ke Indonesia atas permintaan pemerintah. Ia memimpin pengembangan industri pesawat nasional dan menjabat Menteri Negara Riset dan Teknologi selama dua dekade. Puncaknya, pesawat N250 Gatotkaca terbang perdana pada 10 Agustus 1995. Tanggal itu kini diperingati sebagai Hari Kebangkitan Teknologi Nasional.</p><p>Habibie kemudian menjadi Presiden ketiga Republik Indonesia pada 1998–1999. Ia wafat pada 11 September 2019. Bagi banyak pelajar, kisahnya menjadi bukti bahwa ketekunan belajar dapat membuka jalan bagi kemajuan bangsa.</p>",
+   "note": "Teks disusun untuk latihan dari informasi umum tentang B.J. Habibie."
+  },
+  {
+   "id": "bi-t18",
+   "title": "Panel Surya di Atap Sekolah Pesisir",
+   "type": "Teks berita",
+   "text": "<p><b>Pantai Indah, 14 Oktober 2026</b> — Sebuah SMA di Kecamatan Pantai Indah kini memakai listrik dari 24 panel surya yang dipasang di atap perpustakaan. Pemasangan yang selesai pada akhir September itu dibiayai dari dana gotong royong orang tua siswa dan alumni.</p><p>Menurut kepala sekolah, Ibu Rosna Mahmud, listrik dari panel surya digunakan untuk lampu kelas, komputer laboratorium, dan pompa air. “Tagihan listrik bulan ini turun hampir sepertiga dibanding bulan lalu,” ujarnya. Ia menambahkan bahwa siswa dilibatkan untuk mencatat produksi listrik harian.</p><p>Salah seorang siswa, Arif, mengatakan bahwa pencatatan itu membuatnya lebih memahami materi energi di kelas fisika. Meski begitu, sekolah masih menghadapi kendala saat musim hujan karena produksi listrik menurun ketika langit mendung.</p><p>Pihak sekolah berencana menambah baterai penyimpan agar listrik dari siang hari dapat dipakai pada sore hari.</p>",
+   "note": "Berita ini fiktif untuk latihan."
+  },
+  {
+   "id": "bi-t19",
+   "title": "Sampah Plastik di Sungai Kota",
+   "type": "Paragraf (kebahasaan)",
+   "text": "<p>(1) Sampah plastik di sungai kota kita meningkat setiap musim hujan. (2) Sebagian besar sampah itu berasal dari kemasan makanan sekali pakai yang di buang sembarangan. (3) Kemasan tersebut mudah terbawa air dari selokan ke sungai. (4) Pemerintah kota baru saja meresmikan taman bermain di pusat kota. (5) … kelurahan di sepanjang sungai mulai membentuk bank sampah agar warga dapat menukar sampah plastik dengan uang. (6) Langkah ini diharapkan dapat mengurangi jumlah sampah yang masuk ke sungai.</p>",
+   "note": "Teks disusun khusus untuk latihan."
+  },
+  {
+   "id": "bi-t20",
+   "title": "Resensi: Layang-Layang di Atas Danau",
+   "type": "Teks resensi",
+   "text": "<p><b>Judul:</b> Layang-Layang di Atas Danau · <b>Penulis:</b> Maya Ardiyanti · <b>Penerbit:</b> Pustaka Teluk · <b>Tahun:</b> 2025 · <b>Tebal:</b> 212 halaman</p><p>Novel ini bercerita tentang Ilham, remaja anak nelayan yang bercita-cita menjadi insinyur penerbangan. Setiap sore ia menerbangkan layang-layang buatannya di atas danau sambil mencatat arah angin di buku tulis yang sudah lusuh.</p><p>Kekuatan utama novel ini terletak pada detail kehidupan nelayan danau. Penulis menggambarkan bau ikan asap, suara mesin perahu, dan perhitungan harga ikan dengan begitu hidup sehingga pembaca seolah ikut duduk di dermaga. Hubungan Ilham dengan ayahnya yang keras tetapi diam-diam bangga juga ditulis dengan menyentuh.</p><p>Sayangnya, bagian akhir cerita terasa terburu-buru. Konflik Ilham dengan ayahnya yang dibangun selama sepuluh bab selesai hanya dalam dua halaman. Beberapa istilah teknik penerbangan juga tidak dijelaskan sehingga dapat membingungkan pembaca muda.</p><p>Meski demikian, novel ini layak dibaca pelajar yang sedang memperjuangkan cita-cita di tengah keterbatasan.</p>",
+   "note": "Judul, penulis, dan penerbit dalam resensi ini fiktif untuk latihan."
   }
  ],
  "items": [
@@ -1204,7 +1274,766 @@
    ],
    "sub": "EYD",
    "id": "bi-k06"
+  },
+  {
+   "kind": "pg",
+   "stem": "Makna <i>ritme sirkadian</i> dalam teks adalah …",
+   "options": [
+    "kadar gula darah yang naik setelah makan",
+    "jam biologis yang mengatur waktu tubuh merasa segar dan lelah",
+    "kebiasaan tidur siang setiap hari",
+    "aliran darah dari otak ke lambung",
+    "rasa lapar yang muncul menjelang siang"
+   ],
+   "why": "Paragraf kedua mendefinisikan ritme sirkadian sebagai jam biologis yang mengatur kapan kita merasa segar dan kapan mulai lelah.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    1
+   ],
+   "id": "bi-t11-1",
+   "stim": "bi-t11"
+  },
+  {
+   "kind": "pg",
+   "stem": "Fungsi paragraf pertama terhadap paragraf kedua adalah …",
+   "options": [
+    "membantah penjelasan ilmiah di paragraf kedua",
+    "menjelaskan akibat dari peristiwa di paragraf kedua",
+    "memberikan contoh dari teori yang dijelaskan paragraf kedua",
+    "menyimpulkan seluruh isi paragraf kedua",
+    "menyajikan anggapan umum yang kemudian dikoreksi oleh penjelasan di paragraf kedua"
+   ],
+   "why": "Paragraf pertama memuat anggapan “darah berpindah ke lambung” dan menyebutnya terlalu sederhana; paragraf kedua memberi penjelasan yang lebih tepat.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    4
+   ],
+   "id": "bi-t11-2",
+   "stim": "bi-t11"
+  },
+  {
+   "kind": "bs",
+   "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan isi teks.",
+   "options": [
+    "Penurunan kewaspadaan pada awal siang tetap terjadi walaupun seseorang tidak makan siang.",
+    "Kantuk setelah makan siang sepenuhnya disebabkan oleh darah yang berpindah ke lambung.",
+    "Kurang tidur pada malam sebelumnya dapat memperkuat rasa kantuk pada siang hari.",
+    "Semakin lama tidur siang, semakin segar badan ketika bangun."
+   ],
+   "labels": [
+    "Sesuai",
+    "Tidak sesuai"
+   ],
+   "key": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "why": "(1) dan (3) disebut di paragraf 2 dan 3. (2) bertentangan dengan teks yang menyebut penjelasan itu terlalu sederhana. (4) bertentangan dengan saran tidur siang singkat 10–20 menit.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t11-3",
+   "stim": "bi-t11"
+  },
+  {
+   "kind": "pg",
+   "stem": "Saran yang paling sesuai dengan isi teks bagi siswa yang sering mengantuk pada jam pelajaran setelah istirahat siang adalah …",
+   "options": [
+    "tidak makan siang sama sekali agar tidak mengantuk",
+    "tidur siang selama dua jam sebelum pelajaran",
+    "duduk diam setelah makan agar pencernaan lancar",
+    "makan siang secukupnya, cukup tidur malam, dan bergerak sebentar setelah makan",
+    "minum minuman manis agar tubuh kembali bertenaga"
+   ],
+   "why": "Paragraf terakhir menyebut tidur malam cukup, porsi sedang, dan bergerak sebentar. Menahan lapar tidak cukup, minuman manis memperkuat kantuk, dan tidur siang yang lama justru membuat badan berat.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    3
+   ],
+   "id": "bi-t11-4",
+   "stim": "bi-t11"
+  },
+  {
+   "kind": "pg",
+   "stem": "Konflik yang dialami Nadia adalah …",
+   "options": [
+    "kemarahan kepada Om Rahman yang menyuruhnya bekerja",
+    "rasa iri karena Fajar lebih pandai matematika",
+    "ketakutan tidak lulus karena belum belajar sama sekali",
+    "pertentangan antara keinginan menjaga kejujuran dan permintaan teman untuk memperbanyak kunci jawaban",
+    "kebingungan karena mesin fotokopi tiba-tiba rusak"
+   ],
+   "why": "Fajar meminta Nadia memperbanyak kertas berisi kunci try out, sedangkan Nadia teringat usahanya belajar dan pesan Om Rahman. Teks justru menunjukkan Nadia sudah belajar keras.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    3
+   ],
+   "id": "bi-t12-1",
+   "stim": "bi-t12"
+  },
+  {
+   "kind": "pg",
+   "stem": "Makna ucapan Om Rahman, “Mesin ini cuma menyalin … Yang menentukan isinya pantas disalin atau tidak, ya kita,” adalah …",
+   "options": [
+    "manusia bertanggung jawab memilih apa yang pantas dilakukan dengan alat yang dimilikinya",
+    "pelanggan selalu benar dan harus dilayani",
+    "semua dokumen boleh disalin asalkan dibayar",
+    "Nadia belum pandai memakai mesin fotokopi",
+    "mesin fotokopi tua lebih baik daripada mesin baru"
+   ],
+   "why": "Ucapan itu menegaskan bahwa alat bersifat netral; keputusan moral ada pada orang yang memakainya. Pesan inilah yang membuat Nadia menolak permintaan Fajar.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "bi-t12-2",
+   "stim": "bi-t12"
+  },
+  {
+   "kind": "multi",
+   "stem": "Pilih <b>semua</b> kutipan yang menggambarkan perasaan Nadia.",
+   "options": [
+    "“Jantung Nadia berdegup.”",
+    "“Mesin tua di sudut kios berdengung pelan.”",
+    "“Tangannya masih dingin, tetapi dadanya terasa lebih lapang.”",
+    "“Fajar mendengus, lalu pergi tanpa pamit.”"
+   ],
+   "key": [
+    0,
+    2
+   ],
+   "why": "Kutipan 1 menunjukkan kaget dan cemas; kutipan 3 menunjukkan tegang yang berganti lega. Kutipan 2 menggambarkan latar, sedangkan kutipan 4 menggambarkan sikap Fajar.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t12-3",
+   "stim": "bi-t12"
+  },
+  {
+   "kind": "pg",
+   "stem": "Kalimat penutup “Ia membuka buku latihan dan mulai mengerjakan soal peluang nomor sebelas” menunjukkan bahwa Nadia …",
+   "options": [
+    "menyesal telah menolak permintaan Fajar",
+    "tidak peduli pada hasil try out",
+    "ingin menyalin kunci jawaban secara diam-diam",
+    "memilih menghadapi try out dengan usahanya sendiri",
+    "akan melaporkan Fajar kepada guru keesokan harinya"
+   ],
+   "why": "Setelah menolak, Nadia langsung melanjutkan belajar. Tindakan itu menegaskan pilihannya untuk mengandalkan kemampuan sendiri. Tidak ada petunjuk penyesalan atau rencana melapor.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    3
+   ],
+   "id": "bi-t12-4",
+   "stim": "bi-t12"
+  },
+  {
+   "kind": "multi",
+   "stem": "Pilih <b>semua</b> pernyataan yang sejalan dengan kedua teks.",
+   "options": [
+    "PR tidak perlu dihapus sepenuhnya.",
+    "Beban PR perlu dikendalikan.",
+    "PR sebaiknya diberikan setiap hari oleh semua guru.",
+    "Siswa kelas 12 kurang tidur karena bermain gawai."
+   ],
+   "key": [
+    0,
+    1
+   ],
+   "why": "Teks 1 tetap memberi PR, Teks 2 menyebut siswa tidak menolak PR. Keduanya ingin beban terkendali: Teks 1 membatasi 30 menit, Teks 2 meminta jadwal tidak menumpuk. Pernyataan 3 dan 4 tidak ada di teks.",
+   "comp": "Pemahaman Inferensial",
+   "id": "bi-t13-1",
+   "stim": "bi-t13"
+  },
+  {
+   "kind": "pg",
+   "stem": "Data dalam Teks 2 paling tepat dipakai untuk mendukung pernyataan …",
+   "options": [
+    "PR tidak bermanfaat untuk mengulang materi",
+    "semua siswa kelas 12 menolak PR",
+    "guru memberi PR yang memerlukan lebih dari 30 menit",
+    "separuh siswa tidak pernah mengerjakan PR",
+    "penumpukan PR pada hari yang sama berkaitan dengan berkurangnya waktu tidur siswa"
+   ],
+   "why": "Data survei menghubungkan pekan dengan PR menumpuk dan jam tidur yang kurang. Pilihan lain bertentangan dengan teks atau tidak didukung data.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    4
+   ],
+   "id": "bi-t13-2",
+   "stim": "bi-t13"
+  },
+  {
+   "kind": "bs",
+   "stem": "Tentukan apakah setiap kalimat berikut merupakan fakta atau opini.",
+   "options": [
+    "“Survei OSIS terhadap 150 siswa kelas 12 menunjukkan bahwa … separuh responden tidur kurang dari enam jam.”",
+    "“Menurut kami, satu kalender PR bersama di tiap kelas adalah jalan keluar yang sederhana.”",
+    "“Saya tetap memberi PR setiap minggu, tetapi jumlahnya saya batasi agar dapat selesai dalam 30 menit.”"
+   ],
+   "labels": [
+    "Fakta",
+    "Opini"
+   ],
+   "key": [
+    0,
+    1,
+    0
+   ],
+   "why": "Kalimat 1 melaporkan hasil survei dan kalimat 3 melaporkan kebiasaan guru; keduanya dapat dicek. Kalimat 2 memuat penilaian (“menurut kami”).",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t13-3",
+   "stim": "bi-t13"
+  },
+  {
+   "kind": "pg",
+   "stem": "Usulan Teks 2 yang dapat diterapkan tanpa bertentangan dengan Teks 1 adalah …",
+   "options": [
+    "membuat kalender PR bersama agar PR tidak menumpuk pada hari yang sama",
+    "memperpanjang waktu pengerjaan PR menjadi dua jam",
+    "mengganti PR dengan ulangan harian",
+    "menghapus semua PR mata pelajaran",
+    "memberi PR hanya kepada siswa yang nilainya rendah"
+   ],
+   "why": "Guru di Teks 1 tetap ingin memberi PR yang singkat. Kalender bersama hanya mengatur jadwal, sehingga sejalan dengan kedua teks.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "bi-t13-4",
+   "stim": "bi-t13"
+  },
+  {
+   "kind": "pg",
+   "stem": "Produktivitas jagung (ton per hektare) pada tahun 2024 adalah …",
+   "options": [
+    "4,5",
+    "4,8",
+    "5,0",
+    "5,5",
+    "6,0"
+   ],
+   "why": "Produktivitas = produksi ÷ luas panen = 605 ÷ 110 = 5,5 ton/ha.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    3
+   ],
+   "id": "bi-t14-1",
+   "stim": "bi-t14"
+  },
+  {
+   "kind": "bs",
+   "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan data.",
+   "options": [
+    "Produksi jagung naik setiap tahun dari 2021 sampai 2025.",
+    "Luas panen tahun 2024 lebih kecil daripada tahun 2021.",
+    "Produktivitas tahun 2025 lebih tinggi daripada tahun-tahun sebelumnya.",
+    "Luas panen terus bertambah setiap tahun."
+   ],
+   "labels": [
+    "Sesuai",
+    "Tidak sesuai"
+   ],
+   "key": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "why": "(1) Produksi 2023 (585) turun dari 2022 (600). (2) 110 < 120. (3) Produktivitas 2025 = 667 ÷ 115 = 5,8, tertinggi dibanding 4,5; 4,8; 4,5; 5,5. (4) Luas panen turun pada 2024.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t14-2",
+   "stim": "bi-t14"
+  },
+  {
+   "kind": "pg",
+   "stem": "Pernyataan kepala desa kurang tepat karena …",
+   "options": [
+    "produksi tahun 2024 lebih rendah daripada tahun 2021",
+    "produktivitas tahun 2022 adalah yang tertinggi",
+    "produksi turun pada 2023, dan data tidak membuktikan kenaikan setelah 2024 disebabkan oleh pupuk bersubsidi",
+    "luas panen tahun 2025 adalah yang terbesar",
+    "program pupuk bersubsidi dimulai sebelum 2021"
+   ],
+   "why": "Klaim “naik setiap tahun” keliru karena 2023 turun. Tabel juga tidak memuat data pupuk, sehingga hubungan sebab-akibatnya belum terbukti. Pilihan lain bertentangan dengan tabel.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    2
+   ],
+   "id": "bi-t14-3",
+   "stim": "bi-t14"
+  },
+  {
+   "kind": "pg",
+   "stem": "Simpulan yang paling didukung oleh data adalah …",
+   "options": [
+    "produksi jagung turun karena luas panen berkurang",
+    "luas panen tidak berpengaruh sama sekali terhadap produksi",
+    "petani menanam jagung di lahan yang semakin luas",
+    "produksi tahun 2025 dua kali lipat produksi tahun 2021",
+    "meskipun luas panen berkurang setelah 2023, produksi tetap naik karena hasil per hektare meningkat"
+   ],
+   "why": "Luas panen turun dari 130 ha (2023) menjadi 110–115 ha, tetapi produksi naik menjadi 605 dan 667 ton karena produktivitas naik menjadi 5,5 dan 5,8 ton/ha. 667 bukan dua kali 540.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    4
+   ],
+   "id": "bi-t14-4",
+   "stim": "bi-t14"
+  },
+  {
+   "kind": "pg",
+   "stem": "Larik “mesin jahit ibu / berderap seperti kuda kecil” menggunakan majas …",
+   "options": [
+    "metafora",
+    "litotes",
+    "hiperbola",
+    "simile",
+    "sinekdoke"
+   ],
+   "why": "Mesin jahit dibandingkan dengan kuda kecil secara eksplisit memakai kata <i>seperti</i>. Itulah simile (perumpamaan).",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    3
+   ],
+   "id": "bi-t15-1",
+   "stim": "bi-t15"
+  },
+  {
+   "kind": "pg",
+   "stem": "Larik “menjahit … sobek di hari-hari kami / yang tak pernah ibu ceritakan” bermakna …",
+   "options": [
+    "ibu tidak suka bercerita kepada anaknya",
+    "hari-hari keluarga itu penuh kegembiraan",
+    "ibu menjahit baju yang sobek setiap hari",
+    "keluarga itu sering bertengkar",
+    "ibu diam-diam menanggung dan menyelesaikan kesulitan keluarga"
+   ],
+   "why": "“Sobek di hari-hari kami” adalah kiasan untuk kesulitan hidup; “tak pernah ibu ceritakan” menunjukkan ibu menanggungnya diam-diam.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    4
+   ],
+   "id": "bi-t15-2",
+   "stim": "bi-t15"
+  },
+  {
+   "kind": "pg",
+   "stem": "Perasaan aku yang paling kuat pada bait ketiga adalah …",
+   "options": [
+    "kesal karena ibu tidak menyelesaikan pesanan",
+    "takut kepada ibu yang sedang tidur",
+    "haru dan sayang kepada ibu yang bekerja keras",
+    "gembira menyambut hari lebaran",
+    "bosan mendengar suara mesin jahit"
+   ],
+   "why": "Aku menyelimuti ibu yang tertidur kelelahan dan menggambarkan punggungnya “lebih letih dari benang”. Ada rasa haru dan kasih sayang.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    2
+   ],
+   "id": "bi-t15-3",
+   "stim": "bi-t15"
+  },
+  {
+   "kind": "multi",
+   "stem": "Pilih <b>semua</b> frasa yang menunjukkan latar waktu dalam puisi.",
+   "options": [
+    "Setiap malam",
+    "tumpukan pesanan",
+    "Pagi tiba",
+    "lengan bajuku"
+   ],
+   "key": [
+    0,
+    2
+   ],
+   "why": "“Setiap malam” dan “Pagi tiba” menunjukkan waktu. “Tumpukan pesanan” dan “lengan bajuku” adalah benda.",
+   "comp": "Pemahaman Kontekstual",
+   "id": "bi-t15-4",
+   "stim": "bi-t15"
+  },
+  {
+   "kind": "pg",
+   "stem": "Tujuan teks tersebut adalah …",
+   "options": [
+    "membujuk siswa agar mengikuti bimbingan belajar",
+    "melaporkan hasil try out siswa",
+    "menjelaskan langkah-langkah menyusun jadwal belajar menjelang ujian",
+    "menceritakan pengalaman seorang siswa menghadapi ujian",
+    "menjelaskan penyebab siswa gagal dalam ujian"
+   ],
+   "why": "Teks berisi langkah bernomor dan kalimat perintah untuk menyusun jadwal belajar, ciri teks prosedur.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    2
+   ],
+   "id": "bi-t16-1",
+   "stim": "bi-t16"
+  },
+  {
+   "kind": "pg",
+   "stem": "Langkah yang harus dilakukan <b>sebelum</b> menentukan topik yang dipelajari pada jam paling segar adalah …",
+   "options": [
+    "mengosongkan malam sebelum ujian",
+    "menandai topik terlemah berdasarkan hasil latihan",
+    "memindahkan waktu topik yang sudah dikuasai",
+    "beristirahat 10 menit",
+    "mengikuti try out penuh"
+   ],
+   "why": "Langkah 4 (menempatkan topik terlemah) membutuhkan langkah 2 (menandai topik terlemah) terlebih dahulu.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    1
+   ],
+   "id": "bi-t16-2",
+   "stim": "bi-t16"
+  },
+  {
+   "kind": "bs",
+   "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan teks.",
+   "options": [
+    "Malam sebelum ujian sebaiknya dipakai untuk mempelajari bab yang belum pernah dibaca.",
+    "Try out penuh disarankan setiap dua atau tiga hari.",
+    "Jadwal yang sudah dibuat tidak boleh diubah.",
+    "Blok belajar dipisahkan oleh jeda singkat."
+   ],
+   "labels": [
+    "Sesuai",
+    "Tidak sesuai"
+   ],
+   "key": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "why": "(1) bertentangan dengan langkah 6. (2) sesuai langkah 5. (3) bertentangan dengan catatan. (4) sesuai langkah 3.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t16-3",
+   "stim": "bi-t16"
+  },
+  {
+   "kind": "pg",
+   "stem": "Ciri kebahasaan yang paling menonjol dalam teks tersebut adalah …",
+   "options": [
+    "menggunakan majas personifikasi",
+    "banyak menggunakan kalimat perintah",
+    "banyak menggunakan dialog antartokoh",
+    "menggunakan kata kerja lampau",
+    "menggunakan kata ganti orang ketiga"
+   ],
+   "why": "Hampir setiap langkah diawali kata kerja perintah: tuliskan, daftarkan, bagi, letakkan, sisipkan, kosongkan.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    1
+   ],
+   "id": "bi-t16-4",
+   "stim": "bi-t16"
+  },
+  {
+   "kind": "pg",
+   "stem": "Gagasan utama paragraf kedua adalah …",
+   "options": [
+    "Habibie gemar membaca sejak kecil",
+    "keahlian Habibie di bidang konstruksi pesawat diakui melalui penelitiannya tentang retakan",
+    "Habibie menjabat menteri selama dua dekade",
+    "pesawat N250 terbang perdana pada 1995",
+    "Habibie lahir dari keluarga Gorontalo dan Yogyakarta"
+   ],
+   "why": "Paragraf kedua membahas pendidikan di Jerman dan penelitian perambatan retak yang membuat Habibie dikenal. Pilihan lain berasal dari paragraf lain.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    1
+   ],
+   "id": "bi-t17-1",
+   "stim": "bi-t17"
+  },
+  {
+   "kind": "pg",
+   "stem": "Makna frasa <i>perambatan retak</i> dalam teks adalah …",
+   "options": [
+    "proses meluasnya retakan pada suatu bahan sedikit demi sedikit",
+    "lapisan cat pelindung badan pesawat",
+    "kecepatan pesawat saat lepas landas",
+    "cara memperbaiki pesawat yang rusak",
+    "bahan ringan untuk membuat pesawat"
+   ],
+   "why": "Merambat berarti menjalar sedikit demi sedikit. Penelitian ini membantu memperkirakan awal retakan pada struktur pesawat.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    0
+   ],
+   "id": "bi-t17-2",
+   "stim": "bi-t17"
+  },
+  {
+   "kind": "pg",
+   "stem": "Urutan isi teks yang tepat adalah …",
+   "options": [
+    "pendidikan di Jerman – masa kecil – masa akhir – kiprah di Indonesia",
+    "masa kecil – kiprah di Indonesia – pendidikan di Jerman – makna kisahnya",
+    "masa kecil dan asal-usul – pendidikan dan karier di Jerman – kiprah di Indonesia – masa akhir dan makna kisahnya",
+    "asal-usul – masa akhir – pendidikan – kiprah di Indonesia",
+    "kiprah di Indonesia – masa kecil – pendidikan di Jerman – masa akhir"
+   ],
+   "why": "Paragraf 1 masa kecil, paragraf 2 pendidikan dan karier di Jerman, paragraf 3 kiprah di Indonesia, paragraf 4 masa akhir dan makna.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    2
+   ],
+   "id": "bi-t17-3",
+   "stim": "bi-t17"
+  },
+  {
+   "kind": "bs",
+   "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan isi teks.",
+   "options": [
+    "Habibie lahir di Gorontalo.",
+    "Hari Kebangkitan Teknologi Nasional berkaitan dengan penerbangan perdana N250.",
+    "Habibie menjabat Menteri Negara Riset dan Teknologi sebelum menjadi presiden.",
+    "Penelitian Habibie membuat pesawat lebih berat tetapi lebih aman."
+   ],
+   "labels": [
+    "Sesuai",
+    "Tidak sesuai"
+   ],
+   "key": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "why": "(1) Habibie lahir di Parepare; ayahnyalah yang berasal dari Gorontalo. (2) dan (3) disebut di paragraf 3 dan 4. (4) Teks menyebut pesawat dapat dibuat lebih ringan tanpa mengurangi keamanan.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t17-4",
+   "stim": "bi-t17"
+  },
+  {
+   "kind": "multi",
+   "stem": "Pilih <b>semua</b> unsur berita yang informasinya terdapat dalam teks.",
+   "options": [
+    "Apa: sekolah memakai listrik dari panel surya",
+    "Siapa: kepala sekolah, siswa, orang tua, dan alumni",
+    "Berapa biaya yang dikeluarkan untuk pemasangan",
+    "Bagaimana dibiayai: dana gotong royong orang tua siswa dan alumni"
+   ],
+   "key": [
+    0,
+    1,
+    3
+   ],
+   "why": "Teks menyebut peristiwa, pihak yang terlibat, dan sumber dana, tetapi tidak menyebut besar biayanya.",
+   "comp": "Pemahaman Kontekstual",
+   "id": "bi-t18-1",
+   "stim": "bi-t18"
+  },
+  {
+   "kind": "pg",
+   "stem": "Informasi yang belum terdapat dalam berita tersebut adalah …",
+   "options": [
+    "rencana sekolah selanjutnya",
+    "penggunaan listrik dari panel surya",
+    "besar biaya yang dikeluarkan untuk memasang panel surya",
+    "kendala yang dihadapi saat musim hujan",
+    "jumlah panel surya yang dipasang"
+   ],
+   "why": "Jumlah panel (24), penggunaan, kendala, dan rencana disebutkan. Besar biaya tidak disebut.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    2
+   ],
+   "id": "bi-t18-2",
+   "stim": "bi-t18"
+  },
+  {
+   "kind": "pg",
+   "stem": "Hubungan isi paragraf ketiga dan keempat adalah …",
+   "options": [
+    "paragraf keempat menyebut rencana untuk mengatasi kendala di paragraf ketiga",
+    "paragraf keempat membantah pernyataan siswa di paragraf ketiga",
+    "paragraf keempat memberi contoh manfaat panel surya",
+    "paragraf keempat mengulang isi paragraf ketiga",
+    "paragraf ketiga merupakan simpulan dari paragraf keempat"
+   ],
+   "why": "Paragraf ketiga menyebut produksi turun saat mendung; paragraf keempat menyebut rencana baterai penyimpan.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    0
+   ],
+   "id": "bi-t18-3",
+   "stim": "bi-t18"
+  },
+  {
+   "kind": "pg",
+   "stem": "Kalimat langsung dalam berita tersebut adalah …",
+   "options": [
+    "“Tagihan listrik bulan ini turun hampir sepertiga dibanding bulan lalu,” ujarnya.",
+    "Pihak sekolah berencana menambah baterai penyimpan.",
+    "Menurut kepala sekolah, listrik digunakan untuk lampu kelas.",
+    "Arif mengatakan bahwa pencatatan itu membuatnya lebih memahami materi energi.",
+    "Ia menambahkan bahwa siswa dilibatkan untuk mencatat produksi listrik harian."
+   ],
+   "why": "Kalimat langsung menirukan ucapan apa adanya dan diapit tanda petik. Pilihan lain adalah kalimat tidak langsung atau kalimat biasa.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    0
+   ],
+   "id": "bi-t18-4",
+   "stim": "bi-t18"
+  },
+  {
+   "kind": "pg",
+   "stem": "Kalimat yang tidak padu dengan gagasan utama paragraf adalah kalimat …",
+   "options": [
+    "(2)",
+    "(3)",
+    "(4)",
+    "(5)",
+    "(6)"
+   ],
+   "why": "Paragraf membahas sampah plastik di sungai dan penanganannya. Kalimat (4) tentang taman bermain tidak berhubungan dengan gagasan itu.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    2
+   ],
+   "id": "bi-t19-1",
+   "stim": "bi-t19"
+  },
+  {
+   "kind": "pg",
+   "stem": "Konjungsi yang tepat untuk mengawali kalimat (5) adalah …",
+   "options": [
+    "Padahal,",
+    "Sebaliknya,",
+    "Meskipun demikian,",
+    "Oleh karena itu,",
+    "Akan tetapi,"
+   ],
+   "why": "Pembentukan bank sampah adalah tindak lanjut dari masalah di kalimat sebelumnya, sehingga diperlukan konjungsi akibat/tindak lanjut.",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    3
+   ],
+   "id": "bi-t19-2",
+   "stim": "bi-t19"
+  },
+  {
+   "kind": "pg",
+   "stem": "Kesalahan penulisan kata terdapat pada kalimat …",
+   "options": [
+    "(1)",
+    "(2)",
+    "(3)",
+    "(5)",
+    "(6)"
+   ],
+   "why": "Pada kalimat (2), <i>di buang</i> seharusnya ditulis serangkai <i>dibuang</i> karena <i>di-</i> adalah awalan pembentuk kata kerja pasif.",
+   "comp": "Evaluasi & Apresiasi",
+   "key": [
+    1
+   ],
+   "id": "bi-t19-3",
+   "stim": "bi-t19"
+  },
+  {
+   "kind": "bs",
+   "stem": "Tentukan benar atau salah setiap pernyataan tentang paragraf tersebut.",
+   "options": [
+    "Gagasan utama paragraf adalah meningkatnya sampah plastik di sungai beserta upaya mengatasinya.",
+    "Kalimat (3) menjelaskan cara sampah kemasan sampai ke sungai.",
+    "Kalimat (6) memuat data jumlah sampah yang berhasil dikurangi."
+   ],
+   "labels": [
+    "Benar",
+    "Salah"
+   ],
+   "key": [
+    0,
+    0,
+    1
+   ],
+   "why": "Kalimat (6) hanya menyatakan harapan (“diharapkan dapat mengurangi”), tanpa data hasil.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t19-4",
+   "stim": "bi-t19"
+  },
+  {
+   "kind": "pg",
+   "stem": "Tujuan penulis resensi tersebut adalah …",
+   "options": [
+    "mengajak pembaca menjadi insinyur penerbangan",
+    "menilai kelebihan dan kekurangan novel serta memberi rekomendasi kepada pembaca",
+    "menceritakan ulang seluruh isi novel secara lengkap",
+    "menjelaskan cara membuat layang-layang",
+    "melaporkan kehidupan nelayan di danau"
+   ],
+   "why": "Resensi menyajikan identitas buku, kelebihan (paragraf 3), kekurangan (paragraf 4), dan rekomendasi (paragraf 5).",
+   "comp": "Pemahaman Inferensial",
+   "key": [
+    1
+   ],
+   "id": "bi-t20-1",
+   "stim": "bi-t20"
+  },
+  {
+   "kind": "multi",
+   "stem": "Pilih <b>semua</b> kekurangan novel menurut peresensi.",
+   "options": [
+    "Akhir cerita terasa terburu-buru.",
+    "Istilah teknik penerbangan tidak dijelaskan.",
+    "Detail kehidupan nelayan kurang hidup.",
+    "Hubungan Ilham dan ayahnya tidak menyentuh."
+   ],
+   "key": [
+    0,
+    1
+   ],
+   "why": "Dua kekurangan disebut di paragraf keempat. Detail kehidupan nelayan dan hubungan ayah-anak justru disebut sebagai kelebihan.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t20-2",
+   "stim": "bi-t20"
+  },
+  {
+   "kind": "bs",
+   "stem": "Tentukan apakah setiap kalimat berikut merupakan fakta atau opini.",
+   "options": [
+    "Novel setebal 212 halaman ini diterbitkan pada 2025.",
+    "“Penulis menggambarkan … dengan begitu hidup sehingga pembaca seolah ikut duduk di dermaga.”",
+    "“Konflik Ilham dengan ayahnya … selesai hanya dalam dua halaman.”",
+    "“Novel ini layak dibaca pelajar yang sedang memperjuangkan cita-cita.”"
+   ],
+   "labels": [
+    "Fakta",
+    "Opini"
+   ],
+   "key": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "why": "Jumlah halaman, tahun terbit, dan panjang bagian penyelesaian dapat dicek di buku. Kalimat 2 dan 4 adalah penilaian peresensi.",
+   "comp": "Evaluasi & Apresiasi",
+   "id": "bi-t20-3",
+   "stim": "bi-t20"
+  },
+  {
+   "kind": "pg",
+   "stem": "Watak ayah Ilham menurut resensi adalah …",
+   "options": [
+    "tidak peduli pada cita-cita anaknya",
+    "pemalu dan pendiam",
+    "lembut dan selalu memuji anaknya",
+    "mudah marah kepada semua orang",
+    "keras tetapi diam-diam bangga kepada anaknya"
+   ],
+   "why": "Paragraf ketiga menyebut ayah Ilham “keras tetapi diam-diam bangga”.",
+   "comp": "Pemahaman Kontekstual",
+   "key": [
+    4
+   ],
+   "id": "bi-t20-4",
+   "stim": "bi-t20"
   }
  ],
- "count": 48
+ "count": 88
 };

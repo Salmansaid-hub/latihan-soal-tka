@@ -10,11 +10,13 @@ Situs belajar mandiri Tes Kemampuan Akademik (TKA) SMA/MA 2026: materi interakti
 |---|---|
 | **Beranda** | Kartu kesiapan TKA (hitung mundur per gelombang, 4 hari ujian, kesiapan tiap hari), fokus berikutnya, rencana belajar harian menuju ujian, pencarian materi lintas mapel |
 | **Try Out** | Simulasi Hari 1–4 sesuai jumlah soal & durasi resmi, latihan kilat 10 soal, paket penuh per mapel, timer yang tetap berjalan walau halaman ditutup, navigasi nomor + ragu-ragu, nilai per topik, pembahasan lengkap, riwayat |
+| **Buku Kesalahan** | Kumpulan soal yang pernah salah, kosong, atau ragu dari try out dan latihan per teks, lengkap dengan kunci dan pembahasan; latihan ulang hingga tuntas |
+| **Kisi-kisi** | Elemen dan lingkup materi tiap mata uji (8 mapel + ringkasan mapel pilihan lain), batasan materi, dan tombol langsung ke bab terkait |
 | **Info TKA** | Jadwal penting, struktur ujian per hari, tiga bentuk soal, kompetensi yang diukur, daftar 18 mapel pilihan, tips hari-H |
 | **Mapel wajib** | Bahasa Indonesia (literasi), Bahasa Inggris (reading), Matematika |
 | **Mapel pilihan** | Matematika Tingkat Lanjut, Fisika, Kimia, Biologi, Ekonomi |
 
-Jumlah konten: 8 mapel, 313 subbab materi, lebih dari 1.500 soal (600 soal Matematika, 822 soal kuis & HOTS mapel pilihan, 89 soal literasi bahasa berbasis teks).
+Jumlah konten: 8 mapel, 313 subbab materi, 1.591 soal (600 soal Matematika, 822 soal kuis & HOTS mapel pilihan, 169 soal literasi bahasa dari 40 teks bacaan).
 
 Fitur lain: 7 tema warna, posisi navigasi atas/bawah/samping, ukuran teks, ekspor/impor progres (pindah HP tanpa akun), dapat dipasang sebagai aplikasi (PWA), dan dapat dipakai offline setelah materi disimpan.
 
@@ -24,6 +26,7 @@ Fitur lain: 7 tema warna, posisi navigasi atas/bawah/samping, ukuran teks, ekspo
 index.html              Portal (beranda, info TKA, navigasi, pemuat aplikasi)
 assets/portal.css|js    Tampilan & logika portal
 assets/catalog.js       Daftar mapel/bab/subbab untuk pencarian (dihasilkan otomatis)
+assets/kisi.js          Rangkuman kisi-kisi TKA per mapel (bisa diedit)
 assets/icons/           Ikon situs & aplikasi
 apps/<mapel>.html       Aplikasi materi per mapel (dimuat di dalam portal)
 apps/bindo.html, bing.html + literasi.css/js   Modul Bahasa Indonesia & Bahasa Inggris
@@ -81,10 +84,11 @@ Nilai = jumlah soal benar ÷ jumlah soal × 100. Soal pilihan ganda kompleks dan
 ## Sumber
 
 - Jadwal TKA SMA 2026: rilis Kemendikdasmen sebagaimana diberitakan Medcom.id, Warta Ekonomi, dan Brain Academy (Juli–Oktober 2026).
-- Kisi-kisi dan contoh soal: Pusmendik Kemendikdasmen — https://pusmendik.kemendikdasmen.go.id/tka/
+- Kisi-kisi: Peraturan Kepala BSKAP Nomor 045/H/AN/2025 tentang Kerangka Asesmen TKA SMA/MA/SMK/MAK, dirangkum dari Brain Academy, detikEdu, dan Bisnis.com. Laman resmi: Pusmendik Kemendikdasmen — https://pusmendik.kemendikdasmen.go.id/tka/
 - Seluruh teks bacaan dan soal literasi ditulis khusus untuk latihan. Data survei di dalam soal adalah ilustrasi.
 
 ## Riwayat versi
 
+- **3.1 (20 Oktober 2026)** — Buku Kesalahan lintas try out dan latihan; halaman Kisi-kisi TKA; 20 teks bacaan baru (B. Indonesia 88 soal, B. Inggris 81 soal).
 - **3.0 (Oktober 2026)** — situs multi-halaman siap GitHub Pages; beranda baru dengan kartu kesiapan & rencana belajar; Info TKA; modul Bahasa Indonesia & Bahasa Inggris; mesin Try Out format per hari; mode offline/PWA; ekspor-impor progres; perbaikan posisi kunci jawaban yang menumpuk di opsi B dan perbaikan tampilan kata tebal pada materi.
 - **2.0** — portal satu file berisi 6 aplikasi mapel.

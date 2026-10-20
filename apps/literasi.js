@@ -196,6 +196,16 @@
     el.innerHTML = '<div class="qc sum"><div class="big">' + b + '/' + its.length + '</div><p>' + (b === its.length ? 'Sempurna, semua jawaban tepat.' : 'Baca pembahasan soal yang salah, lalu ulangi beberapa hari lagi.') + '</p>' + (nx ? '<button class="btn" data-prac="' + nx.id + '">' + 'Teks berikutnya: ' + esc(nx.title) + '</button>' : '') + '</div>';
   }
   function find(id) { return D.items.filter(function (x) { return x.id === id; })[0]; }
+  /* buku kesalahan bersama (dibaca Try Out): kunci tka-icg-mistakes, id = mapel:idsoal */
+  function mkNote(it) {
+    try {
+      var m = JSON.parse(localStorage.getItem('tka-icg-mistakes') || '{}'); if (!m.items) m.items = {};
+      var id = MOD + ':' + it.id, ok = correct(it, stOf(it).sel), e = m.items[id];
+      if (!ok) { e = m.items[id] = e || { n: 0 }; e.n++; e.ok = 0; e.t = Date.now(); e.src = 'latihan'; }
+      else if (e) { e.ok = (e.ok || 0) + 1; e.t2 = Date.now(); }
+      localStorage.setItem('tka-icg-mistakes', JSON.stringify(m));
+    } catch (er) {}
+  }
   function stOf(it) { var sid = it.stim || (MOD + '-lepas'); ANS[sid] = ANS[sid] || {}; return ANS[sid][it.id] = ANS[sid][it.id] || {}; }
 
   /* ---------- cari ---------- */
@@ -233,9 +243,9 @@
     if (d.done) { DN[d.done] = !DN[d.done]; sv('DN', DN); return go(cur, sub); }
     if (d.reset) { delete ANS[d.reset]; return prac(d.reset); }
     var it, a;
-    if (d.ans) { var q = d.ans.split('|'); it = find(q[0]); a = stOf(it); if (a.done) return; a.sel = +q[1]; a.done = true; return rerender(it); }
+    if (d.ans) { var q = d.ans.split('|'); it = find(q[0]); a = stOf(it); if (a.done) return; a.sel = +q[1]; a.done = true; mkNote(it); return rerender(it); }
     if (d.tog) { var r = d.tog.split('|'); it = find(r[0]); a = stOf(it); if (a.done) return; a.sel = a.sel || []; var k = +r[1], ix = a.sel.indexOf(k); if (ix >= 0) a.sel.splice(ix, 1); else a.sel.push(k); return rerender(it); }
-    if (d.chk) { it = find(d.chk); a = stOf(it); a.done = true; return rerender(it); }
+    if (d.chk) { it = find(d.chk); a = stOf(it); a.done = true; mkNote(it); return rerender(it); }
   });
   document.addEventListener('change', function (e) {
     var d = e.target.dataset; if (!d.bs) return;

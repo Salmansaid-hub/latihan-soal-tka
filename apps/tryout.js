@@ -18,8 +18,25 @@
     fisika: { name: 'Fisika', short: 'Fisika', file: 'bank-fisika', n: 25, min: 60, icon: '⚛️' },
     kimia: { name: 'Kimia', short: 'Kimia', file: 'bank-kimia', n: 25, min: 60, icon: '⚗️' },
     biologi: { name: 'Biologi', short: 'Biologi', file: 'bank-biologi', n: 25, min: 60, icon: '🧬' },
-    ekonomi: { name: 'Ekonomi', short: 'Ekonomi', file: 'bank-ekonomi', n: 25, min: 60, icon: '💹' }
+    ekonomi: { name: 'Ekonomi', short: 'Ekonomi', file: 'bank-ekonomi', n: 25, min: 60, icon: '💹' },
+    mix: { name: 'Buku Kesalahan', short: 'Campuran', file: null, n: 0, min: 0, icon: '📕', virtual: true }
   };
+  var REAL = Object.keys(SUBJ).filter(function (k) { return !SUBJ[k].virtual; });
+  var MK = 'tka-icg-mistakes';
+  function mkLoad() { var m = ld(MK, {}); if (!m.items) m.items = {}; return m; }
+  function mkOpen(m) { return Object.keys(m.items).filter(function (id) { return !m.items[id].ok && SUBJ[id.split(':')[0]]; }); }
+  function mkRecord(s) {
+    var m = mkLoad(), now = Date.now();
+    s.items.forEach(function (id) {
+      var right = isRight(ITEM[id], s.ans[id]), flagged = !!s.flag[id], e = m.items[id];
+      if (!right || flagged) {
+        e = m.items[id] = e || { n: 0 };
+        if (!right) e.n++; else e.r = 1;
+        e.ok = 0; e.t = now; e.src = 'tryout';
+      } else if (e) { e.ok = (e.ok || 0) + 1; e.t2 = now; }
+    });
+    sv(MK, m);
+  }
   var PILIHAN = ['matlanjut', 'fisika', 'kimia', 'biologi', 'ekonomi'];
   var DATES = { 1: ['Senin, 26 Oktober', 'Selasa, 27 Oktober', 'Rabu, 28 Oktober', 'Kamis, 29 Oktober'],
                 2: ['Senin, 2 November', 'Selasa, 3 November', 'Rabu, 4 November', 'Kamis, 5 November'] };
@@ -111,11 +128,16 @@
   }
 
   /* ---------- mulai ---------- */
+  function subjOf(sessions) {
+    var out = [];
+    sessions.forEach(function (s) { (s.subj === 'mix' ? (s.ids || s.items).map(function (id) { return id.split(':')[0]; }) : [s.subj]).forEach(function (k) { if (out.indexOf(k) < 0 && SUBJ[k] && !SUBJ[k].virtual) out.push(k); }); });
+    return out;
+  }
   function startPlan(label, sessions) {
-    var subjects = sessions.map(function (s) { return s.subj; });
+    var subjects = subjOf(sessions);
     Promise.all(subjects.map(load)).then(function () {
       ST.active = { label: label, idx: 0, sessions: sessions.map(function (s) {
-        var its = pick(s.subj, s.n);
+        var its = s.ids ? s.ids.map(function (id) { return ITEM[id]; }).filter(Boolean) : pick(s.subj, s.n);
         return { subj: s.subj, n: its.length, min: s.min, items: its.map(function (x) { return x.id; }), ans: {}, flag: {}, cur: 0, start: null, end: null, done: false };
       }) };
       save(); begin();
@@ -127,7 +149,7 @@
     exam();
   }
   function resume() {
-    var subs = ST.active.sessions.map(function (s) { return s.subj; });
+    var subs = subjOf(ST.active.sessions);
     Promise.all(subs.map(load)).then(function () {
       var s = ST.active.sessions[ST.active.idx];
       if (s.done) sessionResult(); else begin();
@@ -157,8 +179,10 @@
         (d.id === 'd4' ? '<div class="pick" aria-label="Pilih dua mapel pilihan">' + PILIHAN.map(function (x) { var on = p.pilihan.indexOf(x) >= 0; return '<button class="chip ' + (on ? 'on' : '') + '" data-pil="' + x + '" aria-pressed="' + on + '">' + SUBJ[x].short + '</button>'; }).join('') + '</div><div class="note">' + (p.pilihan.length === 2 ? 'Mapel pilihanmu tersimpan.' : 'Pilih tepat dua mapel pilihanmu.') + '</div>' : '') +
         '<button class="go" data-day="' + d.id + '" ' + (ready ? '' : 'disabled') + '>Mulai simulasi ' + d.lab + '</button></div>';
     }).join('') + '</div>';
-    h += '<div class="box"><h2>⚡ Latihan kilat</h2><p class="note" style="margin-top:0">10 soal dalam 15 menit dari satu mapel. Cocok untuk pemanasan sebelum belajar.</p><div class="pick">' + Object.keys(SUBJ).map(function (k) { return '<button class="chip" data-quick="' + k + '">' + SUBJ[k].icon + ' ' + SUBJ[k].short + '</button>'; }).join('') + '</div></div>';
-    h += '<div class="box"><h2>📦 Paket penuh per mapel</h2><p class="note" style="margin-top:0">Satu mapel dengan jumlah soal dan durasi resmi, di luar urutan hari.</p><div class="pick">' + Object.keys(SUBJ).map(function (k) { return '<button class="chip" data-full="' + k + '">' + SUBJ[k].icon + ' ' + SUBJ[k].short + ' · ' + SUBJ[k].n + ' soal</button>'; }).join('') + '</div></div>';
+    var mo = mkOpen(mkLoad()).length;
+    h += '<div class="box"><h2>📕 Buku kesalahan</h2><p class="note" style="margin-top:0">' + (mo ? '<b>' + mo + ' soal</b> pernah salah, kosong, atau ragu dan belum kamu jawab benar.' : 'Soal yang salah, kosong, atau ragu dari try out dan latihan per teks akan terkumpul di sini.') + '</p><button class="btn" data-act="book">' + (mo ? 'Buka buku kesalahan' : 'Lihat buku kesalahan') + '</button></div>';
+    h += '<div class="box"><h2>⚡ Latihan kilat</h2><p class="note" style="margin-top:0">10 soal dalam 15 menit dari satu mapel. Cocok untuk pemanasan sebelum belajar.</p><div class="pick">' + REAL.map(function (k) { return '<button class="chip" data-quick="' + k + '">' + SUBJ[k].icon + ' ' + SUBJ[k].short + '</button>'; }).join('') + '</div></div>';
+    h += '<div class="box"><h2>📦 Paket penuh per mapel</h2><p class="note" style="margin-top:0">Satu mapel dengan jumlah soal dan durasi resmi, di luar urutan hari.</p><div class="pick">' + REAL.map(function (k) { return '<button class="chip" data-full="' + k + '">' + SUBJ[k].icon + ' ' + SUBJ[k].short + ' · ' + SUBJ[k].n + ' soal</button>'; }).join('') + '</div></div>';
     h += '<div class="box"><h2>🗂️ Riwayat</h2>' + (H.length ? '<table class="hist"><tr><th>Tanggal</th><th>Paket</th><th>Mapel</th><th style="text-align:right">Nilai</th></tr>' + H.slice(0, 15).map(function (x) {
       return '<tr><td>' + new Date(x.t).toLocaleDateString('id-ID', { day: 'numeric', month: 'short' }) + '</td><td>' + esc(x.label) + '</td><td>' + esc(SUBJ[x.subj] ? SUBJ[x.subj].short : x.subj) + ' (' + x.correct + '/' + x.n + ')</td><td class="n">' + x.score + '</td></tr>';
     }).join('') + '</table>' : '<p class="note">Belum ada riwayat. Mulai dari simulasi hari pertama atau latihan kilat.</p>') + '</div>';
@@ -202,7 +226,7 @@
     var kindLab = { pg: 'Pilihan ganda', multi: 'PG kompleks', bs: 'Kategori' }[it.kind];
     var en = it.subj === 'bing';
     var inst = it.kind === 'multi' ? (en ? 'There is more than one correct answer. Choose every correct answer.' : 'Jawaban benar lebih dari satu. Pilih semua jawaban yang benar.') : it.kind === 'bs' ? (en ? 'Choose one category for each statement.' : 'Pilih satu kategori untuk setiap pernyataan.') : '';
-    body += '<div class="qno"><span>Soal ' + (s.cur + 1) + '</span><span class="kd">' + kindLab + '</span></div>' + (inst ? '<div class="inst">' + inst + '</div>' : '');
+    body += '<div class="qno"><span>Soal ' + (s.cur + 1) + (s.subj === 'mix' ? ' · ' + SUBJ[it.subj].short : '') + '</span><span class="kd">' + kindLab + '</span></div>' + (inst ? '<div class="inst">' + inst + '</div>' : '');
     body += '<div class="stem">' + (it.title ? '<b>' + esc(it.title) + '</b><br>' : '') + it.stem + '</div>' + (it.visual ? '<div class="vis">' + it.visual + '</div>' : '');
     if (it.kind === 'pg') body += it.options.map(function (o, k) { var on = v === k; return '<button class="opt ' + (on ? 'on' : '') + '" data-pg="' + k + '" aria-pressed="' + on + '"><span class="bub">' + LET[k] + '</span><span>' + o + '</span></button>'; }).join('');
     else if (it.kind === 'multi') { var sel = v || []; body += it.options.map(function (o, k) { var on = sel.indexOf(k) >= 0; return '<button class="opt ' + (on ? 'on' : '') + '" data-mu="' + k + '" aria-pressed="' + on + '"><span class="sq">' + (on ? '✓' : '') + '</span><span>' + o + '</span></button>'; }).join(''); }
@@ -238,9 +262,9 @@
   function score(s) {
     var c = 0, e = 0, per = {};
     s.items.forEach(function (id) {
-      var it = ITEM[id], ok = isRight(it, s.ans[id]), emp = !answered(s, id);
+      var it = ITEM[id], ok = isRight(it, s.ans[id]), emp = !answered(s, id), tk = s.subj === 'mix' ? SUBJ[it.subj].short : it.topic;
       if (ok) c++; if (emp) e++;
-      var p = per[it.topic] = per[it.topic] || { n: 0, c: 0 }; p.n++; if (ok) p.c++;
+      var p = per[tk] = per[tk] || { n: 0, c: 0 }; p.n++; if (ok) p.c++;
     });
     return { correct: c, empty: e, wrong: s.n - c - e, score: Math.round(c / s.n * 100), per: per };
   }
@@ -258,7 +282,8 @@
     ST.history = ST.history || [];
     ST.history.unshift({ t: Date.now(), label: a.label, subj: s.subj, n: s.n, correct: s.result.correct, score: s.result.score, dur: Math.round((s.finished - s.start) / 1000) });
     ST.history = ST.history.slice(0, 60);
-    markSeen(s.subj, s.items);
+    if (s.subj !== 'mix') markSeen(s.subj, s.items);
+    try { mkRecord(s); } catch (e) {}
     save();
     sessionResult(auto);
   }
@@ -300,6 +325,52 @@
     return out || '<p class="note">Tidak ada soal pada kategori ini.</p>';
   }
 
+  /* ---------- buku kesalahan ---------- */
+  var BOOKF = '';
+  function itemCard(id, e) {
+    var it = ITEM[id]; if (!it) return '';
+    var h = '<div class="rv no" style="border-left-color:' + (e.n ? 'var(--no)' : 'var(--rg)') + '"><div class="qno"><span>' + SUBJ[it.subj].icon + ' ' + esc(SUBJ[it.subj].short) + ' · ' + esc(it.topic) + '</span><span class="kd">' + (e.n ? 'salah ' + e.n + '×' : 'ragu') + ' · ' + new Date(e.t).toLocaleDateString('id-ID', { day: 'numeric', month: 'short' }) + '</span></div>';
+    if (it.stim && STIMS[it.stim]) h += '<details class="st"><summary>Teks: ' + esc(STIMS[it.stim].title) + '</summary><div class="stimbox" style="position:static;max-height:none;margin-top:8px">' + STIMS[it.stim].text + '</div></details>';
+    h += '<div class="stem">' + (it.title ? '<b>' + esc(it.title) + '</b><br>' : '') + it.stem + '</div>' + (it.visual ? '<div class="vis">' + it.visual + '</div>' : '');
+    h += '<details class="st"><summary>Lihat kunci & pembahasan</summary><div style="margin-top:6px">';
+    if (it.kind === 'pg') h += it.options.map(function (o, k) { return '<div class="opt ' + (k === it.key[0] ? 'key' : '') + '"><span class="bub">' + LET[k] + '</span><span>' + o + '</span></div>'; }).join('');
+    else if (it.kind === 'multi') h += it.options.map(function (o, k) { var key = it.key.indexOf(k) >= 0; return '<div class="opt ' + (key ? 'key' : '') + '"><span class="sq">' + (key ? '✓' : '') + '</span><span>' + o + '</span></div>'; }).join('');
+    else h += '<table class="bst"><tr><th style="text-align:left">Pernyataan</th><th>Kunci</th></tr>' + it.options.map(function (o, r) { return '<tr><td>' + o + '</td><td class="c"><b>' + esc(it.labels[it.key[r]]) + '</b></td></tr>'; }).join('') + '</table>';
+    if (it.why) h += '<div class="why"><b>Pembahasan:</b> ' + it.why + '</div>';
+    h += '</div></details><div style="margin-top:10px"><button class="btn ghost" data-act="tuntas" data-id="' + esc(id) + '">✓ Saya sudah paham, tandai tuntas</button></div></div>';
+    return h;
+  }
+  function bookList(m, f) {
+    return mkOpen(m).filter(function (id) { return !f || id.split(':')[0] === f; }).sort(function (a, b) { var A = m.items[a], B = m.items[b]; return (B.n - A.n) || (B.t - A.t); });
+  }
+  function book(f) {
+    view = 'book'; stopTick(); BOOKF = f || '';
+    var m = mkLoad(), open = mkOpen(m), subs = [];
+    open.forEach(function (id) { var k = id.split(':')[0]; if (subs.indexOf(k) < 0) subs.push(k); });
+    $('app').innerHTML = '<div class="wrap"><p class="note">Memuat buku kesalahan…</p></div>';
+    Promise.all(subs.map(function (k) { return load(k).catch(function () { return null; }); })).then(function () {
+      var list = bookList(m, BOOKF), done = Object.keys(m.items).filter(function (id) { return m.items[id].ok; }).length;
+      var count = {}; open.forEach(function (id) { var k = id.split(':')[0]; count[k] = (count[k] || 0) + 1; });
+      var h = '<div class="wrap"><div class="head"><div><h1>📕 Buku Kesalahan</h1><p>Soal yang pernah salah, kosong, atau ditandai ragu dari try out dan latihan per teks. Soal dianggap tuntas setelah kamu menjawabnya dengan benar.</p></div><button class="btn ghost" data-act="tohome">← Try Out</button></div>';
+      if (!open.length) {
+        h += '<div class="box"><h2>Belum ada soal yang perlu diulang</h2><p class="note">Kerjakan simulasi, latihan kilat, atau latihan per teks. Soal yang salah otomatis masuk ke sini.</p><button class="btn" data-act="tohome">Ke Try Out</button></div>';
+      } else {
+        h += '<div class="box"><div class="filt" style="margin-top:0"><button class="chip ' + (!BOOKF ? 'on' : '') + '" data-bookf="">Semua · ' + open.length + '</button>' + subs.map(function (k) { return '<button class="chip ' + (BOOKF === k ? 'on' : '') + '" data-bookf="' + k + '">' + SUBJ[k].icon + ' ' + SUBJ[k].short + ' · ' + count[k] + '</button>'; }).join('') + '</div>' +
+          '<p class="note">Latihan ulang memakai maksimal 30 soal dengan waktu 1,5 menit per soal. Soal yang kamu jawab benar akan ditandai tuntas.</p><button class="btn" data-act="bookgo" data-subj="' + BOOKF + '">Latihan ulang ' + Math.min(30, list.length) + ' soal' + (BOOKF ? ' ' + SUBJ[BOOKF].short : '') + '</button></div>';
+        h += '<div class="box"><h2>Daftar soal (' + list.length + ')</h2>' + list.slice(0, 60).map(function (id) { return itemCard(id, m.items[id]); }).join('') + (list.length > 60 ? '<p class="note">Menampilkan 60 soal teratas. Selesaikan latihan ulang untuk mengurangi daftar.</p>' : '') + '</div>';
+      }
+      if (done) h += '<p class="note">' + done + ' soal sudah tuntas. <button class="chip" data-act="clearok">Bersihkan daftar tuntas</button></p>';
+      h += '</div>';
+      $('app').innerHTML = h; scrollTo(0, 0);
+    });
+  }
+  function bookStart(f) {
+    var m = mkLoad(), list = bookList(m, f).slice(0, 30);
+    if (!list.length) return book(f);
+    if (ST.active && !confirm('Try out yang sedang berjalan akan dihapus. Lanjutkan?')) return;
+    startPlan('Buku kesalahan', [{ subj: 'mix', ids: list, n: list.length, min: Math.max(5, Math.ceil(list.length * 1.5)) }]);
+  }
+
   function alertBox(t, m) { $('app').innerHTML = '<div class="wrap"><div class="box"><h2>' + esc(t) + '</h2><p>' + esc(m) + '</p><button class="btn" data-act="done">Kembali</button></div></div>'; }
 
   /* ---------- event ---------- */
@@ -318,6 +389,7 @@
       return startPlan(d.quick ? 'Latihan kilat' : 'Paket ' + S.short, [{ subj: k, n: d.quick ? 10 : S.n, min: d.quick ? 15 : S.min }]);
     }
     if (d.filt) { filt = d.filt; return sessionResult(); }
+    if (d.bookf != null) return book(d.bookf);
     if (d.to != null) { s.cur = +d.to; save(); var nv = $('nav'); if (nv) nv.classList.remove('open'); return exam(); }
     if (d.pg != null) { s.ans[it.id] = +d.pg; save(); return refresh(); }
     if (d.mu != null) { var a = s.ans[it.id] || [], k2 = +d.mu, ix = a.indexOf(k2); if (ix >= 0) a.splice(ix, 1); else a.push(k2); s.ans[it.id] = a; save(); return refresh(); }
@@ -334,8 +406,13 @@
       case 'close': $('modal').classList.remove('on'); return;
       case 'confirm': return finishSession(false);
       case 'nextsess': ST.active.idx++; save(); filt = 'all'; return begin();
-      case 'again': var A = ST.active, cur = A.sessions[A.idx]; return startPlan(A.label, [{ subj: cur.subj, n: cur.n, min: cur.min }]);
+      case 'again': var A = ST.active, cur = A.sessions[A.idx]; if (cur.subj === 'mix') { ST.active = null; save(); return bookStart(''); } return startPlan(A.label, [{ subj: cur.subj, n: cur.n, min: cur.min }]);
+      case 'tohome': return home();
       case 'done': ST.active = null; save(); filt = 'all'; return home();
+      case 'book': return book();
+      case 'bookgo': return bookStart(d.subj || '');
+      case 'tuntas': var mm = mkLoad(); if (mm.items[d.id]) { mm.items[d.id].ok = 1; mm.items[d.id].t2 = Date.now(); sv(MK, mm); } return book(BOOKF);
+      case 'clearok': var m2 = mkLoad(); Object.keys(m2.items).forEach(function (id) { if (m2.items[id].ok) delete m2.items[id]; }); sv(MK, m2); return book(BOOKF);
     }
   });
   document.addEventListener('keydown', function (e) {
@@ -351,10 +428,10 @@
   function setTh(n) { if (!n || n === 'auto') document.documentElement.removeAttribute('data-skin'); else document.documentElement.setAttribute('data-skin', n === 'kertas' ? 'senja' : n); }
   function setFs(v) { document.body.style.fontSize = 16.5 * (+v || 1) + 'px'; }
   window.setTh = setTh; window.setFs = setFs;
-  window.showHub = function (k) { if (view === 'exam') return; if (/^d[1-4]$/.test(k)) home(k); else if (SUBJ[k]) home(); else home(); };
+  window.showHub = function (k) { if (view === 'exam') return; if (k === 'salah') book(); else if (/^d[1-4]$/.test(k)) home(k); else home(); };
   window.go = function () { if (view !== 'exam') home(); };
   window.home = function () { if (view !== 'exam') home(); };
 
   var h0 = (location.hash || '').slice(1);
-  if (ST.active && !sess().done && sess().start) resume(); else home(/^d[1-4]$/.test(h0) ? h0 : null);
+  if (ST.active && !sess().done && sess().start) resume(); else if (h0 === 'salah') book(); else home(/^d[1-4]$/.test(h0) ? h0 : null);
 })();

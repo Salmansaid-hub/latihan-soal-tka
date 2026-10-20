@@ -8,7 +8,7 @@
     repo: 'https://github.com/Salmansaid-hub/latihan-soal-tka',
     maker: 'siswa MAN Insan Cendekia Gorontalo',
     pusmendik: 'https://pusmendik.kemendikdasmen.go.id/tka/tka/view/mata-pelajaran-wajib/sma/',
-    version: '3.0 · Oktober 2026'
+    version: '3.1 · 20 Oktober 2026'
   };
   var EXAM = { 1: ['2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29'], 2: ['2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05'] };
   var SUSULAN = ['2026-11-16', '2026-11-29'], HASIL = '2026-12-23';
@@ -123,7 +123,7 @@
     }).join('');
     return '<section class="sheet-card" aria-label="Kartu kesiapan TKA"><div class="sheet-top"><div><div class="lbl">Kartu kesiapan TKA SMA 2026</div>' + top + '</div><div class="seg" role="group" aria-label="Pilih gelombang">' +
       [1, 2].map(function (g) { return '<button data-gel="' + g + '" class="' + (p.gel === g ? 'on' : '') + '" aria-pressed="' + (p.gel === g) + '">Gelombang ' + g + '</button>'; }).join('') + '</div></div><div class="days">' + rows + '</div>' +
-      '<div class="sheet-foot"><span>Bulatan = kesiapan: rata-rata materi yang sudah kamu pahami dan nilai try out terakhir.</span><button class="mini" data-route="info">Jadwal & aturan lengkap</button></div></section>';
+      '<div class="sheet-foot"><span>Bulatan = kesiapan: rata-rata materi yang sudah kamu pahami dan nilai try out terakhir.</span><span style="display:flex;gap:6px;flex-wrap:wrap"><button class="mini" data-route="kisi">Kisi-kisi</button><button class="mini" data-route="info">Jadwal & aturan</button></span></div></section>';
   }
 
   function todayHTML() {
@@ -144,6 +144,8 @@
       var k = s.mode === 'during' && nextK === ex.indexOf(t) && nextK < 3 ? nextK + 1 : nextK;
       if (daySubj(k).length) out.push({ i: '⏱️', t: 'Simulasi Hari ' + (k + 1), s: esc(dayName(k)) + ' · ' + fdate(ex[k], 'short'), a: 'data-tryout="d' + (k + 1) + '"', b: 'Mulai' });
     }
+    var mk = ld('tka-icg-mistakes', {}), mo = mk && mk.items ? Object.keys(mk.items).filter(function (id) { return !mk.items[id].ok; }).length : 0;
+    if (mo) out.push({ i: '📕', t: 'Buku kesalahan', s: mo + ' soal pernah salah atau ragu dan belum dijawab benar.', a: 'data-tryout="salah"', b: 'Ulangi' });
     var cand = WAJIB.concat(p.pilihan).map(function (id) { return { id: id, r: ready(id) }; }).sort(function (a, b) { return a.r - b.r; });
     if (cand[0]) out.push({ i: BY[cand[0].id].icon, t: 'Materi ' + esc(BY[cand[0].id].name), s: 'Kesiapan terendah (' + cand[0].r + '%). Selesaikan 2 subbab.', a: 'data-open="' + cand[0].id + '"', b: 'Buka' });
     var weak = cand.filter(function (c) { var sc = lastScore(c.id); return sc != null && sc < 60; })[0];
@@ -235,6 +237,28 @@
       footHTML() + '</div>';
   }
 
+  /* ===== kisi-kisi ===== */
+  function kisi(focusId) {
+    var K = window.KISI; if (!K) { $('view').innerHTML = '<div class="in"><p>Data kisi-kisi tidak termuat.</p></div>'; return; }
+    var chip = function (id, lab) { return '<a class="chip" href="#/kisi/' + id + '">' + lab + '</a>'; };
+    var btns = function (lk) { if (!lk) return '<span class="note">—</span>'; var app = lk[0], c = BY[app]; return lk.slice(1).map(function (i) { var ch = c && c.chapters[i]; return ch ? '<button class="mini" data-j="' + app + '|' + i + '">' + ch.icon + ' ' + esc(ch.short) + '</button>' : ''; }).join(' '); };
+    var h = '<div class="in info"><h1>Kisi-kisi TKA SMA 2026</h1><p class="lead">Rangkuman elemen dan lingkup materi tiap mata uji menurut kerangka asesmen TKA. Tombol di setiap baris membuka bab yang sesuai di situs ini.</p>' +
+      '<div class="chips" style="margin-top:14px">' + K.subjects.map(function (sj) { return chip(sj.id, (BY[sj.id] ? BY[sj.id].icon + ' ' : '') + esc(SHORT[sj.id] || sj.name)); }).join('') + chip('lain', 'Mapel lain') + chip('sumber', 'Sumber') + '</div>';
+    K.subjects.forEach(function (sj) {
+      var c = BY[sj.id], p = prog(sj.id), cov = Math.min(100, Math.round(p.d / p.t * 100)), sc = lastScore(sj.id);
+      h += '<section class="panel kisi" id="k-' + sj.id + '" style="--sc:' + (c ? c.color : 'var(--rose)') + '"><div class="kh"><div><h2>' + (c ? c.icon + ' ' : '') + esc(sj.name) + '</h2><div class="tg"><span class="tagc">' + (sj.type === 'wajib' ? 'Wajib' : 'Pilihan') + '</span><span class="tagc">' + esc(sj.meta) + '</span></div></div><div class="kr"><small>Materi dipahami</small><b>' + cov + '%</b>' + (sc != null ? '<small>Try out terakhir</small><b>' + sc + '</b>' : '') + '</div></div>';
+      if (sj.teks) h += '<p><b>Bentuk teks.</b> ' + esc(sj.teks) + '</p>';
+      if (sj.kompetensi) h += '<p><b>Kompetensi.</b> ' + esc(sj.kompetensi) + '</p>';
+      if (sj.groups) h += sj.groups.map(function (g) { return '<div class="kg"><div class="kgh"><h3>' + esc(g[0]) + '</h3>' + btns(g[2]) + '</div><ul>' + g[1].map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul></div>'; }).join('');
+      if (sj.elemen) h += '<div style="overflow-x:auto"><table class="tbl kt"><tr><th>Elemen</th><th>Lingkup materi</th><th>Pelajari</th></tr>' + sj.elemen.map(function (e) { return '<tr><td><b>' + esc(e[0]) + '</b></td><td>' + esc(e[1]) + (e[2] ? '<div class="note">Batasan: ' + esc(e[2]) + '</div>' : '') + '</td><td class="kb">' + btns(e[3]) + '</td></tr>'; }).join('') + '</table></div>';
+      h += '<div class="btn-row"><button class="btn ghost" data-open="' + sj.id + '">Buka ' + esc(SHORT[sj.id]) + '</button><button class="btn ghost" data-tryout="' + ({ bindo: 'd1', bing: 'd2', matwajib: 'd3' }[sj.id] || 'd4') + '">Try out</button></div></section>';
+    });
+    h += '<section class="panel kisi" id="k-lain"><h2>Mapel pilihan lain</h2><p class="note">Belum ada materi di situs ini untuk mapel berikut. Ringkasan elemen tetap dicantumkan sebagai panduan.</p><table class="tbl kt"><tr><th>Mapel</th><th>Elemen</th></tr>' + K.others.map(function (o) { return '<tr><td><b>' + esc(o[0]) + '</b></td><td>' + esc(o[1]) + '</td></tr>'; }).join('') + '</table></section>';
+    h += '<section class="panel kisi" id="k-sumber"><h2>Sumber</h2><ul>' + K.sources.map(function (x) { return '<li><a href="' + x[1] + '" target="_blank" rel="noopener">' + esc(x[0]) + '</a></li>'; }).join('') + '</ul><p class="note">Halaman ini rangkuman, bukan salinan dokumen resmi. Diperbarui ' + esc(K.updated) + '. Jika ada perbedaan, ikuti dokumen resmi Pusmendik.</p></section>';
+    $('view').innerHTML = h + footHTML() + '</div>';
+    if (focusId) { var el = $('k-' + focusId); if (el) setTimeout(function () { el.scrollIntoView({ block: 'start' }); }, 30); }
+  }
+
   /* ===== pencarian ===== */
   var MATCH = [];
   function search(e) {
@@ -252,11 +276,11 @@
   var APPNAME = { tryout: 'Try Out' };
   function drawNav() {
     var item = function (id, ic, lab) { return '<button data-t="' + id + '"' + (BY[id] ? ' style="--sc:' + BY[id].color + '"' : '') + '><span class="ni" aria-hidden="true">' + ic + '</span><span class="nl">' + lab + '</span></button>'; };
-    $('nav').innerHTML = item('home', '🏠', 'Beranda') + item('tryout', '⏱️', 'Try Out') + item('info', '🗓️', 'Info TKA') + '<span class="sep"></span>' +
+    $('nav').innerHTML = item('home', '🏠', 'Beranda') + item('tryout', '⏱️', 'Try Out') + item('salah', '📕', 'Kesalahan') + item('kisi', '📋', 'Kisi-kisi') + item('info', '🗓️', 'Info TKA') + '<span class="sep"></span>' +
       WAJIB.map(function (id) { return item(id, BY[id].icon, SHORT[id]); }).join('') + '<span class="sep"></span>' + PIL.map(function (id) { return item(id, BY[id].icon, SHORT[id]); }).join('');
     markNav();
   }
-  function markNav() { var cur = ROUTE.name === 'app' ? ROUTE.id : ROUTE.name; document.querySelectorAll('#nav button').forEach(function (b) { var on = b.dataset.t === cur; b.classList.toggle('on', on); if (on) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); }); }
+  function markNav() { var cur = ROUTE.name === 'app' ? (ROUTE.id === 'tryout' && ROUTE.sub === 'salah' ? 'salah' : ROUTE.id) : ROUTE.name; document.querySelectorAll('#nav button').forEach(function (b) { var on = b.dataset.t === cur; b.classList.toggle('on', on); if (on) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); }); }
 
   function applySet() {
     var r = document.documentElement;
@@ -306,7 +330,8 @@
     var h = decodeURIComponent((location.hash || '').replace(/^#\/?/, '')), parts = h.split('/');
     if (!h || h === 'beranda') { ROUTE = { name: 'home' }; showPage(home, 'TKA ICG — Belajar TKA SMA 2026 Kelas 12'); }
     else if (parts[0] === 'info') { ROUTE = { name: 'info' }; showPage(info, 'Info TKA SMA 2026 · TKA ICG'); }
-    else if (parts[0] === 'tryout') { ROUTE = { name: 'app', id: 'tryout' }; var d = parts[1]; showApp('tryout', d ? function (w) { if (w.showHub) w.showHub(d); } : null); }
+    else if (parts[0] === 'kisi') { ROUTE = { name: 'kisi' }; showPage(function () { kisi(parts[1]); }, 'Kisi-kisi TKA SMA 2026 · TKA ICG'); }
+    else if (parts[0] === 'tryout') { var d = parts[1]; ROUTE = { name: 'app', id: 'tryout', sub: d || '' }; showApp('tryout', function (w) { if (w.showHub) w.showHub(d || 'home'); }); }
     else if (parts[0] === 'm' && BY[parts[1]]) {
       var id = parts[1], x = parts[2], y = parts[3]; ROUTE = { name: 'app', id: id };
       var cb = null;
@@ -372,7 +397,7 @@
   /* ===== event ===== */
   document.addEventListener('click', function (e) {
     var t = e.target;
-    var nb = t.closest('#nav button'); if (nb) { var id = nb.dataset.t; return nav(id === 'home' ? '' : id === 'info' ? 'info' : id === 'tryout' ? 'tryout' : 'm/' + id); }
+    var nb = t.closest('#nav button'); if (nb) { var id = nb.dataset.t; var NAVR = { home: '', info: 'info', kisi: 'kisi', tryout: 'tryout', salah: 'tryout/salah' }; return nav(id in NAVR ? NAVR[id] : 'm/' + id); }
     var el = t.closest('[data-open],[data-tryout],[data-route],[data-j],[data-n],[data-r],[data-s],[data-x],[data-gel],[data-pil],[data-d],[data-act]');
     if (!el) return;
     var d = el.dataset;
